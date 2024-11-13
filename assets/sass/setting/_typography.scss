@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// ---- テーマの基本スタイル ----
+
+// フォント指定
+$base-font-family: "Noto Sans JP", sans-serif;
+$sub-font-family: "Roboto Condensed", sans-serif;
+%en-font{
+    font-family: $sub-font-family;
+    font-weight: 700;
+}
+// --- 明朝体 ---
+// $base-font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", 游明朝, "Yu Mincho", YuMincho, HGS明朝E, "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;

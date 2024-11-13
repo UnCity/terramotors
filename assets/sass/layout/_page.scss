@@ -1,0 +1,35 @@
+@charset 'utf-8';
+@use "../index" as *;
+
+// 2カラムレイアウト設定
+// TOP含む全ページ共通
+.l-page {
+  &--column_2 {
+    padding-top: 50px;
+
+    @include mq_up {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    @include mq() {
+      padding-top: 20px;
+    }
+    .l-page__main {
+      width: 70%;
+
+      @include mq() {
+        width: 100%;
+      }
+    }
+
+    // サイドバー
+    .l-sidebar {
+      width: 25%;
+
+      @include mq() {
+        width: 100%;
+      }
+    }
+  }
+}

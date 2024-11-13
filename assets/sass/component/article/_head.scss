@@ -1,0 +1,87 @@
+@charset "utf-8";
+@use "../../index" as *;
+
+//記事のヘッダー
+.c-articleHead {
+  &__thum {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 50px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+
+    @include objImg(66.67%);
+
+    @include mq(sp) {
+      margin: 0 auto 20px auto;
+    }
+
+    // NEW ICON
+    div.pop {
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #c94447;
+      color: #fff;
+      padding: 3% 4%;
+      border-radius: 0 0 10px 0;
+      letter-spacing: 1px;
+      font-weight: bold;
+      @extend %font-size_16;
+    }
+  }
+
+  &__ttl {
+    margin: 0 auto 10px auto;
+    font-weight: bold;
+    @extend %font-size_30;
+
+    @include mq(sp) {
+      margin: 0 auto;
+    }
+  }
+
+  &__info {
+    li {
+      display: inline-block;
+      font-size: 0;
+    }
+
+    .c-articleDay {
+      font-weight: 700;
+      @extend %font-size_16;
+      & + li {
+        margin-left: 10px;
+      }
+    }
+
+    .c-articleCgy {
+      font-size: 0;
+
+      li {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        display: inline-block;
+        a,
+        span {
+          @extend %font-size_14;
+          background-color: $sub-color;
+          padding: 3px 10px;
+          border-radius: 5px;
+          color: #fff;
+          background: $sub-color;
+          font-weight: 700;
+        }
+        a {
+          @include link-color(#fff);
+          &:hover {
+            opacity: 0.8;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

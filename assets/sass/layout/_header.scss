@@ -1,0 +1,56 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ COMMON HEADER ------------
+
+.l-header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background: #000000;
+  min-width: 1000px;
+  height: 100px;
+  @include mq(spc) {
+    min-width: inherit;
+    height: 52px;
+  }
+
+  &__inner {
+    position: relative;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    @include mq(spc){
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    &.--sub{
+      border-top: rgba(255, 255, 255, 0.2) 1px solid;
+    }
+  }
+
+  // Logo
+  &__logo {
+    a {
+      display: block;
+
+      img {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
+
+}
+
+// ------------　スクロール後FIXED設定 ------------
+
+header.fixed {
+  background: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  z-index: 100;
+}

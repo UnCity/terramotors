@@ -1,0 +1,31 @@
+@charset "utf-8";
+@use "../index" as *;
+
+
+
+// ページトップボタン
+.c-pageup {
+	width: 70px;
+	height: 70px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 100;
+
+	@include mq() {
+		width: 50px;
+		height: 50px;
+	}
+
+	@include mq(sp) {
+		width: 40px;
+		height: 40px;
+	}
+
+	a {
+		.c-pageup__img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

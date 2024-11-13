@@ -1,0 +1,49 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ CTA ------------
+.p-cta{
+    padding-bottom: 100px;
+    background-color: rgba(0,11,51,.7);
+    @include mq(){
+        padding-bottom: 55px;
+        
+    }
+
+    .l-wrapper{
+        margin-top: 120px;
+        color: #fff;
+        text-align: center;
+        @include mq(){
+            margin-top: 55px;
+
+        }
+    }
+    &__ttl{
+        @extend %font-size_30;
+        font-weight: 700;
+    }
+    &__text{
+        margin-top: 20px;
+    }
+    &__form{
+        margin-top: 40px;
+        &-box{
+            text-align: left;
+            @include mq_up(){
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+        }
+        &-block{
+            @include mq_up(){
+                width: 250px;
+            }
+        }
+        .c-btn{
+            @extend %font-size_18;
+            margin: auto;
+        }
+    }
+}

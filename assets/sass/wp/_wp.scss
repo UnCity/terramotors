@@ -1,0 +1,25 @@
+@charset "utf-8";
+@use "../index" as *;
+@use "editor" as editor;
+
+// ------------ 記事一覧 ------------*/
+
+// メイン LAYOUT
+div.p-edit {
+}
+
+// ------------ 記事 ------------*/
+
+// エディターエリア
+div.editor {
+  padding: 50px 0 0 0;
+  @extend %font-size_16;
+
+  @include mq(sp) {
+    padding: 20px 0 0 0;
+  }
+
+  // _editor.scssで定義したミックスインeditor()で
+  // Gutenbergで登録した本文にあてるスタイルを呼び出す
+  @include editor.editor();
+}

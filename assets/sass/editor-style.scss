@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+ * editor-style.scss
+ * WPのGutenbergに適用するスタイル
+ * _editor.scssに記載したスタイルがインポートされます。
+ * ※ コンパイルされたeditor-style.cssはルートディレクトリに配置していください。
+ * ※ Webフォントは使用しないでください。
+ */
+
+//Gutenbergのスタイル
+@use "wp/editor" as *;
+
+// ----- EDITOR STYLE ----
+.editor-styles-wrapper {
+  @extend %font-size_16;
+  @include editor();
+}
+
+// カスタム投稿を追加する場合
+// .post-type-** {
+//   @include editor-**();
+// }

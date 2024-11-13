@@ -1,0 +1,42 @@
+@charset "utf-8";
+@use "../index" as *;
+
+.c-btn {
+  // リンク
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 0;
+  font-weight: bold;
+  @include link-color(#050500);
+
+  &::after{
+    content: "";
+    width: 47.31px;
+    height: 26px;
+    bottom: 35px;
+    right: 25px;
+    background: url(../img/arrow/arrow-btn-bl.svg) center center no-repeat;
+    background-size: contain;
+    margin-left: 23px;
+  }
+
+  &.--wh{
+    color: #fff;
+    &:after{
+        background-image: url(../img/arrow/arrow-btn-wh.svg);
+    }
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @include mq(sp) {
+    min-width: 0;
+    display: flex;
+  }
+}
+
+.c-btn--return {
+}

@@ -1,0 +1,94 @@
+@charset "utf-8";
+@use "../index" as *;
+
+
+// ------------ BASS ------------
+
+html,
+body {
+	width: 100%;
+
+	// PC表示は幅を最低限固定
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include mq() {
+		min-width: inherit;
+	}
+}
+
+body {
+	font-family: $base-font-family;
+	color: $base-font-color;
+	@extend %font-size_16;
+	line-height: $base-line-height;
+	font-weight: 500;
+}
+
+div#container {
+	width: 100%;
+	height: 100%;
+}
+
+// 選択テキストのカラー
+::selection { background: $main-color; color: #FFF; }
+::-moz-selection { background: $main-color; color: #FFF; }
+
+
+// ------------ BASS STYLE ------------
+
+//text
+p{
+	line-height: 1.75;
+	letter-spacing: .05em
+}
+
+// リンク設定
+a {
+	@include link-color($base-font-color);
+	transition: background-color 0.4s ease, color 0.4s ease, opacity 0.4s ease;
+
+	img {
+		transition: opacity 0.4s ease;
+	}
+
+	&:hover {
+		opacity: 0.8;
+		img {
+			opacity: 0.8;
+		}
+	}
+}
+
+picture {
+	display: block;
+}
+
+img{
+	max-width: 100%;
+}
+
+br {
+	line-height: inherit;
+}
+
+
+// 斜線
+hr {
+	height: 1px;
+	clear: both;
+	border: none;
+	border-top: $border-color 1px solid;
+	color: #FFF;
+}
+
+
+// 選択不可
+.unselectable {
+	-ms-user-select: none; /* IE 10+ */
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}

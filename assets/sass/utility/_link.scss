@@ -1,0 +1,10 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// 電話番号など、PCではリンクさせず、SPだけクリッカブルにする
+.u-link_sp {
+  pointer-events: none;
+  @include mq() {
+    pointer-events: inherit;
+  }
+}

@@ -1,0 +1,94 @@
+@charset "utf-8";
+@use "../../index" as *;
+
+// 最近の投稿
+
+.c-articleEntry {
+  &__item {
+    padding: 0 0 10px 0;
+
+    &:last-child {
+      padding: 0;
+    }
+
+    dl {
+      display: flex;
+      dt {
+        width: 30%;
+
+        @include mq() {
+          width: 20%;
+        }
+
+        img {
+          border-radius: 3px;
+        }
+      }
+
+      dd {
+        width: 70%;
+        padding: 0 0 0 5%;
+
+        @include mq() {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  &__thumb {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      padding-top: 66.67%;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+  }
+
+  &__text {
+    @include textend-dots(3, $base-line-height);
+    @extend %font-size_14;
+    padding: 0;
+  }
+
+  // タイトルは1行、抜粋は2行のみ表示。文末3点リーダー
+  // 表示したい行数とline-height値（emまたはpxの単位あり）を要設定
+  &.textend_dots {
+    h2,
+    h3 {
+      @include textend-dots(1, $base-line-height);
+    }
+    p {
+      @include textend-dots(2, $base-line-height);
+    }
+  }
+
+  // タイトルは1行、抜粋は2行のみ表示。文末はグラデーションで非表示
+  // 表示したい行数とline-height値（emまたはpxの単位あり）を要設定
+  &.textend_grad {
+    h2,
+    h3 {
+      @include textend-grad(1, $base-line-height);
+    }
+    p {
+      @include textend-grad(2, $base-line-height);
+    }
+  }
+}
+// アーカイブ
+select.article-archive {
+  width: 100%;
+}

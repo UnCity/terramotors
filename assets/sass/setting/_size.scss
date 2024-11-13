@@ -1,0 +1,17 @@
+@charset "utf-8";
+@use "../mixin/breakpoint" as *;
+
+//コンテンツ幅
+%content-width{
+	width: 95%;
+	max-width: 1166px;
+	margin: auto;
+	position: relative;
+	@include mq(){
+		width: 89.3%;
+	}
+}
+
+
+// 行間（_reset.scssで使用）
+$base-line-height: 1.3;

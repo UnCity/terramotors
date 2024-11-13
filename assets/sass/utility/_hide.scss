@@ -1,0 +1,80 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// 表示/非表示の調整クラス
+.u-hide_sp {
+	@include mq() {
+		display: none;
+	}
+}
+
+.u-hide_pc {
+	@include mq_up() {
+		display: none;
+	}
+}
+
+.u-hide_less_pc {
+	@include mq(pc) {
+		display: none;
+	}
+}
+
+.u-hide_more_pc {
+	@include mq_up(pc) {
+		display: none;
+	}
+}
+
+.u-hide_less_spc {
+	@include mq(spc) {
+		display: none;
+	}
+}
+
+.u-hide_more_spc {
+	@include mq_up(spc) {
+		display: none;
+	}
+}
+
+.u-hide_less_sp {
+	@include mq(sp) {
+		display: none;
+	}
+}
+
+.u-hide_more_sp {
+	@include mq_up(sp) {
+		display: none;
+	}
+}
+
+.u-hide_less_ssp {
+	@include mq(ssp) {
+		display: none;
+	}
+}
+
+.u-hide_more_ssp {
+	@include mq_up(ssp) {
+		display: none;
+	}
+}
+
+.u-hide_less_sssp {
+	@include mq(sssp) {
+		display: none;
+	}
+}
+
+.u-hide_more_sssp {
+	@include mq_up(sssp) {
+		display: none;
+	}
+}
+
+// 非表示
+.u-hide {
+	display: none;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+// ブレークポイントの設定
+$breakpoints: (
+	'sssp': 'screen and (max-width: 374px)',
+	'ssp': 'screen and (max-width: 414px)',
+	'sp': 'screen and (max-width: 568px)',
+	'tb': 'screen and (max-width: 768px)',
+	'spc': 'screen and (max-width: 1000px)',
+	'pc': 'screen and (max-width: 1280px)',
+) !default;
+
+$breakpoints_up: (
+	'sssp': 'screen and (min-width: 375px)',
+	'ssp': 'screen and (min-width: 415px)',
+	'sp': 'screen and (min-width: 569px)',
+	'tb': 'screen and (min-width: 769px)',
+	'spc': 'screen and (min-width: 1001px)',
+	'pc': 'screen and (min-width: 1281px)',
+) !default;
+
+@mixin mq($breakpoint: tb) {
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content;
+	}
+}
+
+@mixin mq_up($breakpoint: tb) {
+	@media #{map-get($breakpoints_up, $breakpoint)} {
+		@content;
+	}
+}

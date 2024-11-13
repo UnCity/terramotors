@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+// リンクカラー
+@mixin link-color($color) {
+
+	&, &:hover, &:visited, &:link {
+		color: $color;
+		text-decoration: none;
+	}
+
+}

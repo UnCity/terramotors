@@ -1,0 +1,14 @@
+@charset 'utf-8';
+@use "../index" as *;
+
+// ------------ BASS LAYOUT ------------
+
+// 1カラムレイアウト設定
+// TOP含む全ページ共通
+.l-sec {
+ margin-top: -5px;
+ &.--bgImage{
+  background: url(../img/common/section-bg.png) center top no-repeat;
+  background-size: 100% auto;
+ }
+}

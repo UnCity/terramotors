@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@use "../index" as *;
+
+// ページタイトル
+div.c-pageTitle {
+  width: 100%;
+  background-color: $main-color;
+  background-position: center center;
+  background-size: cover;
+  padding: 60px 0;
+
+  @include mq() {
+    padding: 40px 0;
+  }
+
+  @include mq(sp) {
+    padding: 30px 0;
+  }
+
+  h1,
+  p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    @extend %font-size_30;
+  }
+}

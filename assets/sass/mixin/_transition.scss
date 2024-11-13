@@ -1,0 +1,25 @@
+@charset "utf-8";
+@use "breakpoint" as *;
+
+// リンクエフェクト
+@mixin transitions(){
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+
+	@include mq() {
+		transition: all 0s ease;
+		-webkit-transition: all 0s ease;
+		-moz-transition: all 0s ease;
+		-o-transition: all 0s ease;
+	}
+}
+
+// モーションエフェクト
+@mixin transitions--all() {
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+}

@@ -1,0 +1,158 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ FOOTER ------------*/
+
+.l-footer {
+  width: 100%;
+  padding: 50px 0 20px;
+  margin: auto;
+  background-color: $base-font-color;
+  justify-content: space-between;
+
+  a,span {
+    color: #fff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__cont{
+    @include mq_up(){
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .border{
+    width: 1px;
+    background-color: #fff;
+    @include mq(){
+      display: none;
+    }
+  }
+  // Logo
+  &__left {
+    padding: 0;
+
+    &-logo{
+      img {
+        width: 223px;
+        height: auto;
+        margin: auto;
+        @media screen and (max-width: 1100px) {
+          width: 200px;
+        }
+      }
+    }
+    &-sns{
+      ul{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+      }
+    }
+  }
+
+  // サイトマップ
+  &__sitemap {
+    margin: auto;
+    
+    @include mq() {
+      width: 100%;
+    }
+  }
+  &__list {
+    margin-top: -20px;
+  }
+  &__item, &__item > ul{
+    @include mq_up(){
+      display: flex;
+      justify-content: right;
+      gap: 15px;
+    }
+    @media screen and (max-width: 1100px) {
+      gap: 10px;
+    }
+  }
+  &__item {
+    margin-top: 20px;
+    span,li{
+      width: 175px;
+      @media screen and (max-width: 1100px) {
+        width: 160px;
+      }
+    }
+    &.--sub{
+      margin-top: 40px;
+      ul{
+        gap: 45px;
+        @media screen and (max-width: 1100px) {
+          gap: 40px;
+        }
+      }
+      li{
+        width: auto;
+      }
+      a{
+        @extend %font-size_16;
+        @media screen and (max-width: 1100px) {
+          font-size: 14px;
+        }
+        &.--mini{
+          @extend %font-size_14;
+          @media screen and (max-width: 1100px) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    span{
+      @extend %font-size_16;
+      @media screen and (max-width: 1100px) {
+        font-size: 14px;
+      }
+    }
+    
+    a {
+      font-weight: 700;
+      @extend %font-size_14;
+      text-decoration: underline;
+      @media screen and (max-width: 1100px) {
+        font-size: 12px;
+      }
+      @include mq() {
+        
+      }
+      @include mq(ssp) {
+        
+      }
+    }
+  }
+
+  // ドキュメントリンク
+  &__copyright {
+    padding: 20px 0;
+
+    ul {
+      width: 100%;
+      text-align: center;
+      margin: auto;
+
+      li {
+        display: inline-block;
+        padding: 0 10px;
+        @extend %font-size_14;
+
+        @include mq(sp) {
+          padding: 0 5px;
+        }
+      }
+    }
+
+    p {
+      @extend %font-size_12;
+    }
+  }
+}

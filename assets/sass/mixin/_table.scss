@@ -1,0 +1,18 @@
+@charset "utf-8";
+@use "breakpoint" as *;
+
+@mixin tb_block{
+	@include mq() {
+		&, thead, tbody, tfoot, tr {
+			display: block;
+			width: 100%;
+		}
+		tr {
+			th, td {
+				display: block;
+				width: 100%;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,103 @@
+@charset "utf-8";
+@use "../../index" as *;
+
+// 投稿一覧（リスト型）
+.c-articleList {
+  margin-bottom: 40px;
+
+  // タイトルの末尾3点リーダー
+  &.textend_dots {
+    h2,
+    h3 {
+      @include textend-dots(2, $base-line-height);
+    }
+  }
+
+  // タイトルの末尾をグラデーションで非表示にする
+  &.textend_grad {
+    h2,
+    h3 {
+      a {
+        @include textend-grad(1, $base-line-height);
+      }
+    }
+  }
+
+  &__item {
+    &:first-child > a{
+      border-top: 1px solid $border-color;
+    }
+    > a{
+      padding: 20px 0;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid $border-color;
+      @include mq_up(){
+        background-image: url(../img/arrow/arrow-btn-bl.svg);
+        background-size: 47.31px 26px;
+        background-position: right center;
+      }
+      @include mq() {
+        flex-wrap: wrap;
+      }
+    }
+  }
+
+  &__cat {
+    padding: 0 10px 0 0;
+    display: block;
+
+    a,
+    span {
+      min-width: 100px;
+      display: block;
+      text-align: center;
+      background-color: $main-color;
+      color: #fff;
+      padding: 3px 5%;
+      margin: auto;
+      @extend %font-size_12;
+    }
+
+    a {
+      @include link-color($main-color);
+
+      &:hover {
+        text-decoration: none;
+        background-color: $main-color;
+        color: #fff;
+      }
+    }
+
+    @include mq() {
+      width: auto;
+      // padding: 0 10px 10px 0;
+    }
+  }
+
+  &__date {
+    width: 120px;
+    padding: 0 10px 0 0;
+    @extend %font-size_20;
+    @extend %en-font;
+
+    @include mq() {
+      width: auto;
+      // padding: 0 10px 10px 0;
+    }
+  }
+
+  &__ttl {
+    flex: 1;
+    padding-right: 20px;
+    font-weight: 700;
+    a {
+      padding: 2px 0;
+    }
+    @include mq() {
+      flex: inherit;
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}

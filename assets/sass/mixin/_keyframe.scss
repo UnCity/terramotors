@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+// @keyframesのベンダープレフィックス対応ミックスイン
+// パラメータ$nameにアニメーション名を設定
+@mixin keyframes($name) {
+	@-webkit-keyframes #{$name} {
+		@content;
+	}
+	@keyframes #{$name} {
+		@content;
+	}
+}

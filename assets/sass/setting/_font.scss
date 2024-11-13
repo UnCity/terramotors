@@ -1,0 +1,138 @@
+@charset "utf-8";
+@use "../mixin/breakpoint" as *;
+
+// font size
+%font-size_30 {
+	font-size: 30px;
+
+	@include mq() {
+		font-size: 26px;
+	}
+
+	@include mq(sp) {
+		font-size: 24px;
+	}
+}
+
+
+%font-size_26 {
+	font-size: 26px;
+
+	@include mq() {
+		font-size: 24px;
+	}
+
+	@include mq(sp) {
+		font-size: 22px;
+	}
+}
+
+%font-size_24 {
+	font-size: 24px;
+
+	@include mq() {
+		font-size: 22px;
+	}
+
+	@include mq(sp) {
+		font-size: 20px;
+	}
+}
+
+
+%font-size_22 {
+	font-size: 22px;
+
+	@include mq() {
+		font-size: 20px;
+	}
+
+	@include mq(sp) {
+		font-size: 18px;
+	}
+}
+
+%font-size_20 {
+	font-size: 20px;
+
+	@include mq() {
+		font-size: 18px;
+	}
+
+	@include mq(sp) {
+		font-size: 16px;
+	}
+}
+
+%font-size_18 {
+	font-size: 18px;
+
+	@include mq() {
+		font-size: 17px;
+	}
+
+	@include mq(sp) {
+		font-size: 15px;
+	}
+}
+
+%font-size_16 {
+	font-size: 16px;
+
+	@include mq() {
+		font-size: 15px;
+	}
+
+	@include mq(sp) {
+		font-size: 14px;
+	}
+}
+
+
+%font-size_14 {
+	font-size: 14px;
+
+	@include mq() {
+		font-size: 13px;
+	}
+
+	@include mq(sp) {
+		font-size: 12px;
+	}
+}
+
+
+%font-size_12 {
+	font-size: 12px;
+
+	@include mq() {
+		font-size: 12px;
+	}
+
+	@include mq(sp) {
+		font-size: 11px;
+	}
+}
+
+
+%font-size_10 {
+	font-size: 10px;
+
+	@include mq() {
+		font-size: 10px;
+	}
+
+	@include mq(sp) {
+		font-size: 10px;
+	}
+}
+
+// 細字
+%font_normal {
+	font-weight: normal;
+}
+
+// 太字
+%font_bold {
+	font-weight: bold;
+}

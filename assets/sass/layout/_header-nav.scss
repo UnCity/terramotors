@@ -1,0 +1,203 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ NAV LAYOUT ------------
+
+.l-header-nav {
+  margin: auto;
+  margin-right: -25px;
+  z-index: 1;
+
+  // 折りたたみ時
+  @include mq(spc) {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%;
+    overflow: auto;
+    background-color: $base-font-color;
+    z-index: 1000;
+    -webkit-transform: none;
+    transform: none;
+  }
+  &__list {
+    padding: 0 10px;
+    display: flex;
+
+    // 折りたたみ時
+    @include mq(spc) {
+      flex-direction: column;
+      width: 100%;
+      padding: 20px 0;
+    }
+  }
+  &__item {
+    // 折りたたみ時
+    @include mq(spc) {
+      width: 100%;
+
+      border-bottom: #ececec 1px solid;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 18px 25px 15px;
+      font-weight: bold;
+      color: #fff;
+      @extend %en-font;
+
+      // 折りたたみ時
+      @include mq(spc) {
+        padding: 15px;
+      }
+
+      // アクティビティ
+      &.active {
+        color: $main-color;
+      }
+    }
+
+    &.switching {
+      display: none;
+
+      // 折りたたみ時
+      @include mq(spc) {
+        display: inherit;
+      }
+
+      // ロゴ
+      img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto 20px auto;
+      }
+
+      // ドキュメントメニュー
+      ul {
+        padding: 15px 0;
+
+        li {
+          a {
+            padding: 3px 15px;
+            font-weight: normal;
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.l-header-nav__list.--sub{
+  @include mq_up(spc){
+    margin-left: auto;
+    margin-right: -12px;
+    a{
+      padding: 7px 12px;
+      font-weight: 300;
+    }
+  }
+}
+
+// サブメニュー（ドロップダウン）の親メニューのスタイル
+.l-header-nav__item--parent {
+  position: relative;
+  > a {
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url(../img/arrow/input_select.svg);
+      background-position: center right;
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+    }
+  }
+}
+
+// サブメニュー（ドロップダウン）
+ul.l-header-nav__sub {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: auto;
+  transform: translate(-50%, 0);
+  background-color: rgba(255, 255, 255, 0.7);
+  @include transitions--all();
+  li {
+    padding: 0 15px;
+    height: 0;
+    overflow: hidden;
+    @include transitions--all();
+    a {
+      padding: 0 10px;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: 5px 10px;
+      background-position: left top 5px;
+      white-space: nowrap;
+      text-align: left;
+      line-height: 1.7;
+      opacity: 0;
+      @include transitions--all();
+      // color: $main-color;
+      border: none;
+      font-weight: 700;
+      @extend %font-size_14;
+
+      @include mq(spc) {
+        padding: 5px 5px 5px 15px;
+      }
+    }
+  }
+
+  @include mq(spc) {
+    position: static;
+    top: inherit;
+    left: inherit;
+    -webkit-transform: inherit;
+    transform: inherit;
+    z-index: auto;
+    padding: 0 0 15px 25px;
+    overflow: inherit;
+    height: auto;
+    background: inherit;
+
+    li {
+      height: auto;
+      overflow: inherit;
+      padding: 0;
+      a {
+        opacity: 1;
+        font-size: 13px;
+        background-image: url("../img/arrow/arrow_right_c.svg");
+        background-position: left top 10px;
+
+        &:hover {
+          letter-spacing: inherit;
+        }
+      }
+    }
+  }
+}
+.l-header-nav__item--parent:hover ul.l-header-nav__sub {
+  @include mq_up() {
+    padding: 5px 5px;
+    li {
+      padding: 5px 10px;
+      overflow: visible;
+      height: auto;
+      a {
+        padding: 0 10px;
+        opacity: 1;
+        background-image: url("../img/arrow/arrow_right_c.svg");
+      }
+    }
+  }
+}
