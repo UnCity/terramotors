@@ -32,16 +32,23 @@
   }
 
   h2 {
-    padding: 2px 0 2px 8px;
-    margin-bottom: 1em;
+    padding: 12px 10px;
+    margin-bottom: 0.7em;
     line-height: 1.3em;
-    color: $main-color;
-    border-left: $main-color 3px solid;
-    @extend %font-size_20;
+    color: #fff;
+    background-color: $main-color;
+    @extend %font-size_22;
+    @include mq(){
+        padding: 8px 15px;
+    }
   }
 
   h3 {
-    @extend %font-size_18;
+    margin-bottom: .7em;
+    color: $main-color;
+    letter-spacing: .1em;
+    padding-left: 10px;
+    border-left: 5px solid $sub-color;
   }
 
   h4 {
@@ -67,7 +74,7 @@
   // テキスト
   p {
     margin-bottom: 1em;
-
+    letter-spacing: 0.05em;
     br {
       clear: inherit;
     }
@@ -149,6 +156,7 @@
   img {
     max-width: 100%;
     height: auto !important;
+    margin-bottom: 1em;
   }
 
   // float 右
@@ -199,9 +207,7 @@
   // リスト
   ul,
   ol {
-    margin: 3% 0;
-    font-weight: bold;
-
+    margin: 2% 0;
     @include mq() {
       padding: 10px 0 10px 10px;
     }

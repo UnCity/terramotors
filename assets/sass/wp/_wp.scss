@@ -12,7 +12,7 @@ div.p-edit {
 
 // エディターエリア
 div.editor {
-  padding: 50px 0 0 0;
+  padding: 45px 0 0 0;
   @extend %font-size_16;
 
   @include mq(sp) {
