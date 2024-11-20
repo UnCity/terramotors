@@ -1,12 +1,12 @@
 <?php 
 /**
- * Template Name: お問い合わせ Contact Thanks
+ * Template Name: お問い合わせ Contact Confirm
  */
 get_header(); ?>
 
 <!-- //// ALL START //// -->
 
-<div id="container" class="p-contact-thanks l-noBg">
+<div id="container" class="p-contact p-form l-noBg">
 
 
 	<?php get_sidebar('header'); ?>
@@ -36,15 +36,7 @@ get_header(); ?>
         <!-- CONTENTS START -->
         <section class="l-sec">
             <div class="l-wrapper">
-                <div class="thanks-box">
-                    <h3>お問い合わせありがとうございます。</h3>
-                    <p>内容をご確認させていただき折り返し担当者より<br>
-                    ご連絡をいたしますのでしばらくお待ち下さい。</p>
-                    <p>数日経って弊社よりご連絡がなかった場合、<br>
-                    お手数ではございますがお電話、またはお問い合わせにて<br>
-                    再度ご連絡ください。</p>
-                    <a href="" class="c-btn c-btn--back">BACK</a>
-                </div>
+               <?php the_content(); ?>
             </div>
         </section>
         <!-- CONTENTS END -->

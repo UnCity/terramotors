@@ -69,7 +69,7 @@
 
                     <div class="c-articleNav">
                         <!-- 前後の記事リンク START   Back and forth article links START -->
-                        <a href="" class="c-btn c-btn--back">BACK</a>
+                        <a href="<?php echo esc_url(home_url('/news/')); ?>" class="c-btn c-btn--back">BACK</a>
                         <!-- 前後の記事リンク END  Back and forth article links END -->
 
                     </div>

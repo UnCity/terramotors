@@ -4,11 +4,7 @@
 // Pager
 .c-articlePager {
   text-align: center;
-  padding: 0 0 160px;
-
-  @include mq() {
-    padding-bottom: 50px;
-  }
+ 
 
   li {
     width: 36px;

@@ -36,6 +36,12 @@
             }
         }
     }
+    &__list{
+        padding: 0 0 160px;
+        @include mq() {
+            padding-bottom: 50px;
+        }
+    }
 }
 
 .list-cate{
