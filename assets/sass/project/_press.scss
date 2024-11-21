@@ -9,10 +9,22 @@
     .l-sec{
         overflow: hidden;
     }
+    .c-ttlBox.has-bg{
+        background: #fff;
+        .c-ttl{
+            @media screen and (max-width:1260px) {
+                font-size: 135px;
+            }
+            @include mq{
+                font-size: 50px;
+            }
+        }
+    }
     &__story{
-        margin: 34px 0 100px;
+        padding: 34px 0 100px;
+        background: #fff;
         @include mq(){
-            margin: 20px 0 60px;
+            padding: 20px 0 60px;
         }
     }
     &__news{
@@ -38,9 +50,9 @@
         }
     }
     &__media{
-        margin: 4px 0 325px;
-        padding-top: 150px;
-        background: url("../img/press/bg-wave.png") no-repeat top -43% center;
+        margin: 0 0 195px;
+        padding: 154px 0 100px;
+        background: #fff url("../img/press/bg-wave.png") no-repeat top -43% center;
         background-size: 100% auto;
         @include mq(){
             padding-top: 50px;

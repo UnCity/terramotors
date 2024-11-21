@@ -2,7 +2,7 @@
 
 <!-- //// ALL START //// -->
 
-<div id="container" class="p-press l-noBg">
+<div id="container" class="p-press">
 
 
 	<?php get_sidebar('header'); ?>
@@ -31,7 +31,7 @@
 
         <!-- CONTENTS START -->
         <section class="l-sec">
-            <div class="c-ttlBox">
+            <div class="c-ttlBox has-bg">
                 <h2 class="c-ttl">Featured Stories</h2>
             </div>
 
@@ -63,7 +63,7 @@
 
             <div class="p-press__news">
                 <div class="c-ttlBox">
-                    <h2 class="c-ttl">News</h2>
+                    <h2 class="c-ttl --wh">News</h2>
                 </div>
                 <div class="l-wrapper">
 
@@ -179,7 +179,7 @@
 
             <div class="p-cta p-cta--bg">
                 <div class="c-ttlBox">
-                    <h2 class="c-ttl">Hiring Inquiries </h2>
+                    <h2 class="c-ttl --wh">Hiring Inquiries </h2>
                 </div>
                 <div class="l-wrapper">
                     <div class="p-cta__cont">
