@@ -9,12 +9,12 @@ get_header(); ?>
     <?php get_sidebar('header'); ?>
 
     <!-- //// PAGE TITLE START //// -->
-	<div class="c-pageTitle">
-        <div class="c-pageTitle__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/fv.png" alt=""></div>
+	<div class="c-pageTitle-large">
+        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/fv.png" alt=""></div>
 		<div class="l-wrapper">
-			<h1 class="c-pageTitle__en"><?php the_title(); ?></h1>
-			<p class="c-pageTitle__ja">ブランドストーリー</p>
-			<p class="c-pageTitle__txt">テラモーターズは、「日本発、世界一」を自らの手で。をモットーに日本発グローバルブランド<br>として日本の遺伝子をローカルチームと融合し続けることで独自のカルチャーを醸成してきました。</p>
+			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<p class="c-pageTitle-large__ja">ブランドストーリー</p>
+			<p class="c-pageTitle-large__txt">テラモーターズは、「日本発、世界一」を自らの手で。をモットーに日本発グローバルブランド<br>として日本の遺伝子をローカルチームと融合し続けることで独自のカルチャーを醸成してきました。</p>
         </div>
       </div>
     <!-- //// PAGE TITLE END //// -->
