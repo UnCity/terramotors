@@ -8,9 +8,8 @@ div.c-breadcrumbs {
 	height: 3.7em;
 	margin: 0;
 	padding: 1em 0;
-	background-color: #fff;
+	background-color: #F0F0F0;
 	border-top: $border-color 1px solid;
-
 	position: relative;
 	@extend %font-size_12;
 
@@ -33,21 +32,18 @@ div.c-breadcrumbs {
 	#breadcrumbs {
 		margin: auto;
 		white-space: nowrap;
-
+		font-family: $sub-font-family;
+		font-size: 14px;
 		a {
 			color: $main-color;
-			background-image: url(../img/arrow/arrow_right_c.svg);
-			background-position: center right 5px;
-			background-size: 13px 13px;
-			padding: 0 22px 0 0;
+			background-image: url(../img/arrow/breadcrumb_arrow_right.svg);
+			background-position: center right;
+			background-size: 7px 20px;
+			padding: 0 1em 0 0;
 			font-weight: bold;
-		}
-
-		img {
-			margin: 1px 5px;
-			vertical-align: text-bottom;
-			width: 14px;
-			height: 13px;
+			&:hover{
+				opacity: .7;
+			}
 		}
 	}
 }
