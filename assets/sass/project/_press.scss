@@ -55,8 +55,8 @@
         background: #fff url("../img/press/bg-wave.png") no-repeat top -43% center;
         background-size: 100% auto;
         @include mq(){
-            padding-top: 50px;
-            margin: 4px 0 80px;
+            padding: 40px 0;
+            margin: 0 0 140px;
             background-position: top 5% center;
         }
         .l-wrapper{
