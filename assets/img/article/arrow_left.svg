@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 129 129" style="enable-background:new 0 0 129 129;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#CFCFCF;}
-</style>
-<g>
-	<path class="st0" d="M88.6,121.3c0.8,0.8,1.8,1.2,2.9,1.2s2.1-0.4,2.9-1.2c1.6-1.6,1.6-4.2,0-5.8l-51-51l51-51
-		c1.6-1.6,1.6-4.2,0-5.8s-4.2-1.6-5.8,0l-54,53.9c-1.6,1.6-1.6,4.2,0,5.8L88.6,121.3z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6988" data-name="Rectangle 6988" width="24" height="24" transform="translate(0 0)" fill="#041548"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_213" data-name="Mask Group 213" transform="translate(0 24) rotate(-90)" clip-path="url(#clip-path)">
+    <g id="expand-button" transform="translate(2 6.067)">
+      <g id="expand-more">
+        <path id="Path_28046" data-name="Path 28046" d="M17.667,12.333,10,4.667,2.333,12.333,0,10,10,0,20,10Z" fill="#041548"/>
+      </g>
+    </g>
+  </g>
 </svg>

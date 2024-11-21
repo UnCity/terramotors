@@ -1,0 +1,130 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ CONTACT ------------
+.p-contact{
+    .box-contact{
+        max-width: 850px;
+        margin: 120px auto 95px;
+        @include mq(){
+            margin: 60px auto 50px;
+        }
+        &__top{
+            margin-bottom: 35px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            @include mq{
+                margin-bottom: 15px;
+            }
+            &-head{
+                @extend %font-size_18;
+            }
+            &-desc{
+                font-weight: bold;
+                @extend %font-size_30;
+                font-family: $sub-font-family;
+                color: $main-color;
+                a{
+                    color: $main-color;
+                    padding-left: 18px;
+                    @include mq{
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+        &__bot{
+            padding-top: 40px;
+            border-top: 1px solid $border-color02;
+            display: flex;
+            letter-spacing: 0.05em;
+            @include mq{
+                padding-top: 25px;
+                display: block;
+            }
+            &-item{
+                width: calc(50% - 25px);
+                border-radius: 5px;
+                background: $bg-color03;
+                padding: 35px 20px 43px;
+                text-align: center;
+                @include mq{
+                    width: 100%;
+                    padding: 20px;
+                }
+                &:first-child{
+                    margin-right: 25px;
+                    @include mq{
+                        margin: 0 0 20px;
+                    }
+                }
+                &:last-child{
+                    margin-left: 25px;
+                    @include mq{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+        &__sub{
+            font-weight: bold;
+            @extend %font-size_20;
+            letter-spacing: 0.05em;
+            color: $main-color;
+            @include mq{
+                margin-bottom: -2px;
+            }
+        }
+        &__number{
+            @extend %font-size_30;
+            letter-spacing: 0.05em;
+            margin-bottom: -5px;
+            font-weight: bold;
+            font-family: $sub-font-family;
+            color: $main-color;
+            @include mq{
+                margin-bottom: 0;
+            }
+        }
+        &__note{
+            @extend %font-size_14;
+            margin-top: 5px;
+            letter-spacing: 0.05em;
+            @include mq{
+                margin-top: 2px;
+            }
+        }
+    }
+}
+
+// ------------ THANKS ------------
+.thanks-box{
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin: 85px 0 75px;
+    @include mq(){
+        margin: 40px 0
+    }
+    h3{
+        @extend %font-size_30;
+        letter-spacing: 0;
+        color: $main-color;
+        font-weight: bold;
+        margin-bottom: 15px;
+        @include mq(){
+            margin-bottom: 10px;
+        }
+    }
+    p{
+        line-height: 2.1;
+        @include mq(){
+            line-height: 1.625;
+        }
+        & + p {
+            margin-top: 40px;
+            @include mq(){
+                margin-top: 20px;
+            }
+        }
+    }
+}

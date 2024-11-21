@@ -4,6 +4,37 @@
 // ページタイトル
 .c-pageTitle {
   width: 100%;
+  background: url("../img/common/bg-pagetitle.jpg") no-repeat center;
+  background-size: cover;
+  padding: 232px 0 40px;
+  font-weight: bold;
+
+  @include mq() {
+    padding: 110px 0 20px;
+  }
+  h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: $sub-font-family;
+    margin-bottom: -4px;
+    @include mq(){
+        font-size: 35px;
+        margin-bottom: -2px;
+    }
+  }
+  p{
+    color: #fff;
+    @extend %font-size_24;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    @include mq() {
+        font-size: 18px;
+    }
+  }
+}
+
+// ページタイトル（大）
+.c-pageTitle-large{
   height: 100vh;
   background-color:#707070;
   background-position: center bottom;

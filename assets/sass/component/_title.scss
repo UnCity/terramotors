@@ -41,3 +41,12 @@
 	font-size: 30px;
 	margin-bottom: 20px;
 }
+.c-ttl01{
+    font-weight: 700;
+    @extend %font-size_30;
+    margin-bottom: 1.2em;
+
+    @include mq() {
+        margin-bottom: 20px;
+    }
+}

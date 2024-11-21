@@ -10,4 +10,5 @@ assets/css
 *.command
 *.log
 .idea
-.DC_Store
+.DC_Store.DS_Store
+.DS_Store

@@ -35,12 +35,12 @@
             <div class="p-newsroom__list">
                 <div class="l-wrapper">
                     <div class="list-cate">
-                       <ul>
+                        <ul>
                             <li><a href="<?php echo esc_url(home_url('/news/')); ?>">すべて</a></li>
                             <?php
                             $terms = get_terms(array(
                                 'taxonomy' => 'category',
-                                'hide_empty' => false, 
+                                'hide_empty' => false,
                             ));
 
                             if (!empty($terms) && !is_wp_error($terms)) {
