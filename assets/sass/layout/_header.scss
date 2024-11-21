@@ -9,6 +9,9 @@
   left: 0;
   top: 0;
   z-index: 100;
+  backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, .48);
   min-width: 1000px;
   height: 100px;
   &::before{
@@ -26,7 +29,6 @@
     min-width: inherit;
     height: 52px;
   }
-
   &__inner {
     position: relative;
     display: flex;

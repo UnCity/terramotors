@@ -72,7 +72,7 @@
 
             <div class="p-cta p-cta--bg">
                 <div class="c-ttlBox">
-                    <h2 class="c-ttl">Contact</h2>
+                    <h2 class="c-ttl --wh">Contact</h2>
                 </div>
                 <div class="l-wrapper">
                     <div class="p-cta__cont">

@@ -4,4 +4,9 @@
 // ------------ PRIVACY POLICY ------------
 .p-privacypolicy{
     overflow: hidden;
+    .c-ttl{
+        @include mq(){
+            font-size: 50px;
+        }
+    }
 }

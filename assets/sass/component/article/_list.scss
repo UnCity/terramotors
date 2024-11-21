@@ -90,7 +90,8 @@
   &__ttl {
     flex: 1;
     padding-right: 20px;
-    font-weight: 700;
+    font-weight: 500;
+    @extend %font-size_18;
     a {
       padding: 2px 0;
     }
