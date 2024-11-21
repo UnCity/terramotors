@@ -1,0 +1,110 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ technology business ------------
+
+.p-technology-business{
+  .l-sec{
+    background-color: #fff;
+    position: relative;
+  }
+  .c-ttl{
+    overflow: hidden;
+  }
+  .c-ttl02{
+    letter-spacing: .05em;
+  }
+  p:not([class]){
+    font-size: 19px;
+    line-height: 2.1;
+  }
+  .p-technology-business__apps{
+    position: relative;
+    &::before{
+      content:'';
+      position: absolute;
+      top: 57%;
+      transform: translateY(-50%);
+      left: 0;
+      width: 100%;
+      height: 1015px;
+      background: url(../img/common/section-bg.png) center top no-repeat;
+      background-size: 100% auto;
+      z-index: 1;
+    }
+  }
+  @include mq() {
+    p:not([class]){
+      font-size: 16px;
+    }
+    .p-technology-business__apps{
+      &::before{
+        top: 50%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.p-technology-business__technology{
+  .l-wrapper{
+    padding-top: 57px;
+    padding-bottom: 124px;
+  }
+  p:not([class]){
+    margin-top: 30px;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-bottom: 80px;
+    }
+  }
+}
+
+.p-technology-business__iot{
+  .c-ttl{
+    text-transform: initial;
+  }
+  .l-wrapper{
+    padding-top: 26px;
+    padding-bottom: 32px;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.p-technology-business__apps{
+  .c-ttl{
+    text-transform: initial;
+  }
+  .l-wrapper{
+    padding-top: 64px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 2;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-bottom: 120px;
+    }
+  }
+}
+
+.p-technology-business__why{
+  .c-ttlBox{
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .l-wrapper{
+    padding-top: 80px;
+    padding-bottom: 121px;
+    z-index: 1;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-top: 40px;
+      padding-bottom: 80px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@charset "utf-8";
+@use "../index" as *;
+
+.c-set01{
+    display: flex;
+    gap: 65px;
+    &__txt{
+      flex: 1;
+    }
+    &__img{
+      width: 50%;
+    }
+    @include mq() {
+      display: block;
+      &__img{
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
