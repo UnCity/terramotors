@@ -4,7 +4,7 @@ get_header(); ?>
 
 <!-- //// ALL START //// -->
 
-<div id="container" class="p-microfinance-business">
+<div id="container" class="p-microfinance">
 
     <?php get_sidebar('header'); ?>
 
@@ -28,22 +28,22 @@ get_header(); ?>
 
         <main role="main" class="l-page__main">
 			<!-- microfinance START -->
-			<section class="p-microfinance-business__microfinance l-sec --bgImage">
+			<section class="p-microfinance__micro l-sec --bgImage">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">microfinance</h2>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">新興国経済の真実。持続可能な成長の仕組み</h2>
-					<p>アフリカとインドには、ローンや金融サービスへのアクセスが難しい人が多くいます。2021年時点で、アフリカ大陸では成人のおよそ57%（約3億5千万人）が銀行口座を持っておらず、主に非公﻿式な経済活動に依存しています。インドでは、2022年の推計﻿で約19%（約2億4千万人）の成人が金融機関と繋がりを持たず、主に地方や低所得層に集中しています。</p>
-					<div class="p-ev3__ev-mobility__video">
-						<video playsinline="" autoplay="" muted="" loop="" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
+					<p class="p-microfinance__micro-txt">アフリカとインドには、ローンや金融サービスへのアクセスが難しい人が多くいます。2021年時点で、アフリカ大陸では成人のおよそ57%（約3億5千万人）が銀行口座を持っておらず、主に非公﻿式な経済活動に依存しています。インドでは、2022年の推計﻿で約19%（約2億4千万人）の成人が金融機関と繋がりを持たず、主に地方や低所得層に集中しています。</p>
+					<div class="p-microfinance__micro-video">
+						<video playsinline="" controls="" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
 					</div>
 				</div>
 			</section>
 			<!-- microfinance END -->
 
 			<!-- Finance START -->
-			<section class="p-microfinance-business__Finance l-sec">
+			<section class="p-microfinance__finance l-sec">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">Finance</h2>
 				</div>
@@ -62,7 +62,7 @@ get_header(); ?>
 			<!-- Finance END -->
 
 			<!-- EV mobility START -->
-			<section class="p-microfinance-business__evmobility l-sec">
+			<section class="p-microfinance__evmobility l-sec">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">EV mobility</h2>
 				</div>
@@ -81,7 +81,7 @@ get_header(); ?>
 			<!-- EV mobility END -->
 
 			<!-- IoT START -->
-			<section class="p-microfinance-business__evmobility l-sec --bgImage">
+			<section class="p-microfinance__iot l-sec --bgImage">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">IoT</h2>
 				</div>
@@ -100,7 +100,7 @@ get_header(); ?>
 			<!-- IoT END -->
 
 			<!-- Why START -->
-			<section class="p-microfinance-business__why l-sec">
+			<section class="p-microfinance__why l-sec">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">Why Terra Motors?</h2>
 				</div>
@@ -125,46 +125,74 @@ get_header(); ?>
 			</section>
 			<!-- Why END -->
 
+			<!-- Environment START -->
+			<section class="p-microfinance__environment l-sec">
+				<div class="c-ttlBox">
+					<h2 class="c-ttl">Environment</h2>
+				</div>
+				<div class="l-wrapper c-slideup init d_50">
+					<h2 class="c-ttl02">生活向上に寄与</h2>
+					<div class="p-microfinance__environment-list">
+						<div class="p-microfinance__environment-item">
+							<h3 class="p-microfinance__environment-item-ttl">累計販売台数</h3>
+							<p class="p-microfinance__environment-item-num"><span class="num">6500</span><span class="plus">＋</span>件</p>
+						</div>
+						<div class="p-microfinance__environment-item">
+							<h3 class="p-microfinance__environment-item-ttl">貸付額</h3>
+							<p class="p-microfinance__environment-item-num"><span class="num">350万</span><span class="en">USD</span></p>
+						</div>
+						<div class="p-microfinance__environment-item is-large">
+							<h3 class="p-microfinance__environment-item-ttl">はじめてローンを借りるドライバー</h3>
+							<p class="p-microfinance__environment-item-num"><span class="num">50％</span><span class="plus">＋</span></p>
+							<p class="p-microfinance__environment-item-txt">NTC(New To Credit：新規信用取引 )の割合</p>
+							<div class="c-btn --wh"><a href="<?php echo home_url(); ?>/esg/" class="c-btn__link">ESGレポートを見る</a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Environment END -->
+
+			<?php get_template_part('template-parts/parts/ecosystem'); ?>
+
 			<!-- Case Study START -->
-			<section class="p-microfinance-business__case-study l-sec --bgImage">
+			<section class="p-microfinance__case l-sec --bgImage">
 				<div class="c-ttlBox">
 					<h2 class="c-ttl">Case Study</h2>
 				</div>
 				<div class="l-wrapper">
-					<p class="p-front__case__lead c-slideup init d_50">
+					<p class="p-microfinance__case__lead c-slideup init d_50">
 					テラモーターズは、エンドユーザーであるドライバーだけでなく、<br class="u-hide_sp">
 					政府やビジネスセクターとの戦略的提携により、社会的価値、インパクトを生み出す<br>
 					EVエコシステムの構築に挑戦しています。
 					</p>
-
 					<ul class="p-front__case__list">
-					<li class="p-front__case__item --cs c-slideup init d_50">
-						<a class="p-front__case__item-box">
-						<p class="p-front__case__item-subttl">Customer’s Story</p>
-						<h3 class="p-front__case__item-ttl">お客様の声</h3>
-						<p class="p-front__case__item-text">
-							商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。
-						</p>
-						</a>
-					</li>
-					<li class="p-front__case__item --bc c-slideup init d_50">
-						<a class="p-front__case__item-box">
-						<p class="p-front__case__item-subttl">Business Collaboration</p>
-						<h3 class="p-front__case__item-ttl">法人との取り組み</h3>
-						<p class="p-front__case__item-text">
-							B2Bにおける戦略的提携は、革新的なビジネスシナジーによって、産業課題を解決しています。
-						</p>
-						</a>
-					</li>
-					<li class="p-front__case__item --ig c-slideup init d_50">
-						<a class="p-front__case__item-box">
-						<p class="p-front__case__item-subttl">Initiatives with Governments</p>
-						<h3 class="p-front__case__item-ttl">政府との取り組み</h3>
-						<p class="p-front__case__item-text">
-							政府機関との緊密な連携により、新興国におけるEVエコシステムを構築し、地域浸透戦略を実施することで、EVを人々にとってより身近な交通インフラへと進化させています。
-						</p>
-						</a>
-					</li>
+						<li class="p-front__case__item --cs c-slideup init d_50">
+							<a class="p-front__case__item-box">
+							<p class="p-front__case__item-subttl">Customer’s Story</p>
+							<h3 class="p-front__case__item-ttl">商用ドライバーの声</h3>
+							<p class="p-front__case__item-text">
+								商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。
+							</p>
+							</a>
+						</li>
+						<li class="p-front__case__item --bc c-slideup init d_50">
+							<a class="p-front__case__item-box">
+							<p class="p-front__case__item-subttl">Business Collaboration</p>
+							<h3 class="p-front__case__item-ttl">法人との取り組み</h3>
+							<p class="p-front__case__item-text">
+								B2Bにおける戦略的提携は、革新的なビジネスシナジーによって、産業課題を解決しています。
+							</p>
+							</a>
+						</li>
+						<li class="p-front__case__item --ig c-slideup init d_50">
+							<a class="p-front__case__item-box">
+							<p class="p-front__case__item-subttl">Initiatives with Governments</p>
+							<h3 class="p-front__case__item-ttl">政府との取り組み</h3>
+							<p class="p-front__case__item-text">
+								政府機関との緊密な連携により、新興国におけるEVエコシステムを構築し、地域浸透戦略を実施することで、EVを人々にとってより身近な交通インフラへと進化させています。
+							</p>
+							</a>
+						</li>
 					</ul>
 
 					</div>

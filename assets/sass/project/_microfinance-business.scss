@@ -3,9 +3,265 @@
 
 // ------------ technology business ------------
 
-.p-microfinance-business{
+.p-microfinance{
   .l-sec{
     background-color: #fff;
-    background-position: center bottom 150px;
+  }
+  .p-logos{
+    margin-top: 475px;
+  }
+}
+.p-microfinance__micro{
+  &.l-sec{
+    overflow: hidden;
+  }
+  .l-wrapper{
+    padding-top: 45px;
+    padding-bottom: 140px;
+  }
+  &-video {
+    width: 100%;
+    padding-bottom: 56%;
+    position: relative;
+    margin-top: 60px;
+    video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-txt{
+    max-width: 912px;
+    line-height: 2.1;
+  }
+  @include mq(tb) {
+    &__video {
+      margin-top: 40px;
+    }
+  }
+}
+
+.p-microfinance__finance{
+  .l-wrapper{
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+  p{
+    @extend %font-size_19;
+    line-height: 2.1;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 80px;
+    } 
+  }
+}
+
+.p-microfinance__evmobility{
+  .l-wrapper{
+    padding-top: 45px;
+    padding-bottom: 0;
+  }
+  p{
+    @extend %font-size_19;
+    line-height: 2.1;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 80px;
+    } 
+  }
+}
+
+.p-microfinance__iot{
+  &.l-sec.--bgImage{
+    background-position: center top -30px;
+  }
+  .l-wrapper{
+    padding-top: 45px;
+    padding-bottom: 260px;
+  }
+  .c-ttl{
+    text-transform: initial;
+  }
+  p{
+    @extend %font-size_19;
+    line-height: 2.1;
+  }
+  @include mq() {
+    &.l-sec.--bgImage{
+      background-position: center top;
+    }
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 80px;
+    } 
+  }
+}
+
+.p-microfinance__why{
+  &.l-sec{
+    overflow: hidden;
+  }
+  .l-wrapper{
+    padding-top: 60px;
+    padding-bottom: 150px;
+  }
+  .c-ttl{
+    margin-left: -30px;
+    letter-spacing: -.05em;
+    line-height: 1;
+    white-space: nowrap;
+  }
+  @include mq() {
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 80px;
+    } 
+    .c-ttl{
+      white-space: initial;
+    }
+  }
+}
+
+.p-microfinance__environment{
+  padding-top: 40px;
+  &.l-sec{
+    overflow: hidden;
+  }
+  .c-ttl{
+    line-height: 1;
+  }
+  .l-wrapper{
+    padding-bottom: 148px;
+    margin-top: -25px;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin-top: 40px;
+  }
+  &-item {
+    width: calc(50% - 13px);
+    text-align: center;
+    background: linear-gradient(135deg, #23B8B0 -20%, #041548 50%);
+    padding: 55px 90px 50px;
+    color: #fff;
+    border-radius: 5px;
+    &.is-large{
+      width: 100%;
+    }
+    &-ttl {
+      @extend %font-size_30;
+      font-weight: bold;
+    }
+    &-num {
+      @extend %font-size_30;
+      font-weight: 700;
+      color: #23B8B0;
+      line-height: 1.2;
+      .num {
+        @extend %en-font;
+        font-size: 80px;
+        margin-right: 5px;
+      }
+    }
+    .en{
+      @extend %en-font;
+    }
+    .plus{
+      font-size: 50px;
+    }
+    &-txt {
+      line-height: 1.8;
+    }
+    .c-btn{
+      margin-top: 20px;
+      @extend %font-size_20;
+    }
+    .c-btn__link{
+      color: #fff;
+    }
+  }
+  @include mq() {
+    padding-top: 80px;
+    .l-wrapper{
+      padding-bottom: 70px;
+    }
+    &-list {
+      display: block;
+    }
+    &-item {
+      width: 100%;
+      padding: 30px 20px;
+      &-ttl {
+        font-size: 24px;
+      }
+      &-num {
+        font-size: 20px;
+        .num {
+          font-size: 40px;
+        }
+      }
+      &+&{
+        margin-top: 20px;
+      }
+    }
+    .c-btn{
+      margin-top: 30px;
+    }
+
+  } 
+}
+
+.p-microfinance__case{
+  padding-top: 120px;
+  &.l-sec.--bgImage{
+    background-position: center top -30px;
+  }
+  .l-wrapper{
+    padding-top: 50px;
+  }
+  &__lead{
+    @extend %font-size_19;
+    line-height: 2.1;
+  }
+  .p-front__case__list{
+    margin-top: -185px;
+    transform: translateY(235px);
+  }
+  .p-front__case__item.--cs{
+    background-image: url(../img/ev3/cs01.jpg);
+  }
+  @include mq() {
+    display: block;
+    margin-top: 40px;
+
+    &__item {
+      width: 100%;
+
+      & + & {
+        margin-top: 30px;
+      }
+      &-year {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      &-img {
+      }
+
+      &-txt {
+        font-size: 16px;
+      }
+
+      &-note {
+        margin-bottom: 15px;
+      }
+    }
   }
 }

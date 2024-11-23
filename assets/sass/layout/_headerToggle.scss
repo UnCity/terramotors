@@ -70,7 +70,7 @@ body.drawer_open {
 .drawer_bg {
   display: none;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: 999;
   top: 0;
@@ -85,6 +85,7 @@ body.drawer_open {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-overflow-scrolling: touch;
+    position: relative;
 
     //開く時の動き
     &.is_open {
