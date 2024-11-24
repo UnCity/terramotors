@@ -2,7 +2,7 @@
 <section class="p-cta">
 
 <div class="c-ttlBox">
-  <h2 class="c-ttl">Subscribe</h2>
+  <h2 class="c-ttl --wh">Subscribe</h2>
 </div>
 
 <div class="l-wrapper">

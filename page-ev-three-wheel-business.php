@@ -10,7 +10,7 @@ get_header(); ?>
 
     <!-- //// PAGE TITLE START //// -->
 	<div class="c-pageTitle-large">
-        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/fv.png" alt=""></div>
+        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/fv.png" alt="EV3輪事業"></div>
 		<div class="l-wrapper">
 			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
 			<p class="c-pageTitle-large__ja">EV3 輪事業  クリーンエネルギーの力で未来を変えよう</p>
@@ -29,13 +29,13 @@ get_header(); ?>
 			<!-- EV Mobility START -->
 			<section class="p-ev3__ev-mobility l-sec --bgImage">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">EV Mobility</h2>
+					<span class="c-ttl">EV Mobility</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">新興経済国におけるEV3輪</h2>
 					<p>新興国では、EV三輪車は都市部のラストワンマイル、<br>そしてまだ道路整備やEVインフラ整備の整わない農村部においても欠かせない公共交通手段となっています。<br>政府主導のEV施策、補助金により、ガソリン車に代わるものとしてEVへの急速なシフトが実現しました。</p>
 					<div class="p-ev3__ev-mobility__video">
-						<video playsinline="" autoplay="" muted="" loop="" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
+						<video playsinline="" controls="" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
 					</div>
 				</div>
 			</section>
@@ -44,7 +44,7 @@ get_header(); ?>
 			<!-- Needs START -->
 			<section class="p-ev3__needs l-sec --bgImage">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">Needs</h2>
+					<span class="c-ttl">Needs</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">お客様のニーズを形にしたEV三輪</h2>
@@ -55,7 +55,7 @@ get_header(); ?>
 								<h3 class="p-ev3__needs__item-ttl">L5</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="L5">
 									</div>
 								</div>
 							</div>
@@ -67,7 +67,7 @@ get_header(); ?>
 								<h3 class="p-ev3__needs__item-ttl">Y4A</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A">
 									</div>
 								</div>
 							</div>
@@ -79,13 +79,13 @@ get_header(); ?>
 							<h3 class="p-ev3__needs__item-ttl">Y4A Pro</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide01">
 									</div>
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide02">
 									</div>
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide03">
 									</div>
 								</div>
 								<div class="swiper-pagination"></div>
@@ -98,13 +98,13 @@ get_header(); ?>
 								<h3 class="p-ev3__needs__item-ttl">Cargo</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide01">
 									</div>
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide02">
 									</div>
 									<div class="swiper-slide">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide03">
 									</div>
 								</div>
 								<div class="swiper-pagination"></div>
@@ -124,14 +124,14 @@ get_header(); ?>
 				<div class="l-wrapper c-slideup init d_50">
 					<ul class="c-list__why">
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why01.png" alt=""></div>
+							<div class="c-list__why-item-ico"><img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why01.png" alt="5年保証"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">5年保証の耐久力</h3>
 								<p class="c-list__why-item-txt">日本の高度なモビリティ技術を基に設計されたテラモーターズのEV三輪車は、ローカルブランドに比べて優れた耐久性を誇り、メンテナンスコストを削減。商用ドライバーがより長時間働ける環境を提供し、収益の最大化を支援します。</p>
 							</div>
 						</li>
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why02.png" alt=""></div>
+							<div class="c-list__why-item-ico"><img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why02.png" alt="アクセシビリティ"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">アクセシビリティ</h3>
 								<p class="c-list__why-item-txt">ローカル市場に特化した独自のサプライチェーンを構築し、自社で製造することで、新興国の低所得層にも手の届く価格を実現。さらに、補助金やローンの利用可能性を向上させ、一人でも多くのユーザーが製品を手にできるような仕組みを提供しています。</p>
@@ -157,7 +157,7 @@ get_header(); ?>
 			<!-- Environment START -->
 			<section class="p-ev3__environment l-sec">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">Environment</h2>
+					<span class="c-ttl">Environment</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">クリーンな未来を目指して</h2>
@@ -184,15 +184,11 @@ get_header(); ?>
 					<h2 class="c-ttl">Case Study</h2>
 				</div>
 				<div class="l-wrapper">
-					<p class="p-front__case__lead c-slideup init d_50">
-					テラモーターズは、エンドユーザーであるドライバーだけでなく、<br class="u-hide_sp">
-					政府やビジネスセクターとの戦略的提携により、社会的価値、インパクトを生み出す<br>
-					EVエコシステムの構築に挑戦しています。
-					</p>
+					<p class="p-front__case__lead c-slideup init d_50">テラモーターズは、エンドユーザーであるドライバーだけでなく、<br class="u-hide_sp">政府やビジネスセクターとの戦略的提携により、社会的価値、インパクトを生み出すEVエコシステムの構築に挑戦しています。</p>
 					<ul class="p-front__case__list">
 						<li class="p-front__case__item --cs c-slideup init d_50">
 							<a class="p-front__case__item-box">
-							<p class="p-front__case__item-subttl">Customer’s Story</p>
+							<p class="p-front__case__item-subttl">Customer's Story</p>
 							<h3 class="p-front__case__item-ttl">商用ドライバーの声</h3>
 							<p class="p-front__case__item-text">
 								商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。

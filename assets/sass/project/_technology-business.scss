@@ -9,7 +9,7 @@
     position: relative;
   }
   .c-ttl{
-    overflow: hidden;
+    line-height: 1;
   }
   .c-ttl02{
     letter-spacing: .05em;
@@ -54,9 +54,15 @@
   p:not([class]){
     margin-top: 30px;
   }
+  .c-ttl{
+    font-size: min(18vw, 170px);
+  }
   @include mq() {
     .l-wrapper{
       padding-bottom: 80px;
+    }
+    .c-ttl{
+      font-size: min(18vw, 87px);
     }
   }
 }
@@ -85,6 +91,7 @@
   }
   @include mq() {
     .l-wrapper{
+      padding-top: 30px;
       padding-bottom: 120px;
     }
   }
@@ -101,10 +108,16 @@
     padding-bottom: 121px;
     z-index: 1;
   }
+  .c-ttl{
+    font-size: min(12vw, 170px);
+  }
   @include mq() {
     .l-wrapper{
       padding-top: 40px;
       padding-bottom: 80px;
+    }
+    .c-ttl{
+      font-size: min(12vw, 87px);
     }
   }
 }

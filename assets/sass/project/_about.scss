@@ -121,6 +121,9 @@
   .c-ttl02{
     margin-bottom: 40px;
   }
+  .c-ttl{
+    font-size: min(15vw, 170px);
+  }
   @include mq() {
     margin-top: 150px;
     .l-wrapper{
@@ -141,6 +144,9 @@
   }
   .c-ttl02{
     margin-bottom: 40px;
+  }
+  .c-ttl{
+    font-size: min(15vw, 170px);
   }
   @include mq() {
     .l-wrapper{
@@ -173,6 +179,7 @@
   &-position {
     @extend %font-size_14;
     line-height: 1.2;
+    color: #041548;
   }
   &-name {
     @extend %font-size_30;
@@ -181,6 +188,7 @@
     position: relative;
     padding-bottom: 25px;
     margin-bottom: 20px;
+    color: #041548;
     &::before{
       position: absolute;
       content: "";
@@ -188,7 +196,7 @@
       height: 2px;
       left: 0;
       bottom: 0;
-      background-color: #000;
+      background-color: #041548;
     }
   }
   &-text {

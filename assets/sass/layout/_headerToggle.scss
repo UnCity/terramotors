@@ -93,6 +93,7 @@ body.drawer_open {
       top: 0;
       opacity: 1;
       animation-duration: 0.4s;
+      height: 100vh;
       //アニメーションの種類
       animation-name: fadeInRight;
     }

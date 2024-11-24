@@ -11,7 +11,7 @@
                 <p class="p-ecosystem01__item-year">2020</p>
                 <div class="p-ecosystem01__item-btn">
                     <a class="p-ecosystem01__item-link" href="/ev-three-wheel-business/">						
-                        <img class="p-ecosystem01__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem01.png" alt="">		
+                        <img class="p-ecosystem01__item-img lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem01.png" alt="">		
                         <p class="p-ecosystem01__item-txt">バッテリー技術</p>
                         <p class="p-ecosystem01__item-note">（技術開発）</p>
                     </a>
@@ -21,7 +21,7 @@
                 <p class="p-ecosystem01__item-year">2021</p>
                 <div class="p-ecosystem01__item-btn">
                     <a class="p-ecosystem01__item-link" href="/microfinance-business/">						
-                        <img class="p-ecosystem01__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem02.png" alt="">		
+                        <img class="p-ecosystem01__item-img lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem02.png" alt="">		
                         <p class="p-ecosystem01__item-txt"><span class="en">Terra Finance</span></p>
                         <p class="p-ecosystem01__item-note">（金融支援）</p>
                     </a>
@@ -31,7 +31,7 @@
                 <p class="p-ecosystem01__item-year">2021</p>
                 <div class="p-ecosystem01__item-btn">
                     <a class="p-ecosystem01__item-link" href="/technology-business/">						
-                        <img class="p-ecosystem01__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem03.png" alt="">		
+                        <img class="p-ecosystem01__item-img lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem03.png" alt="">		
                         <p class="p-ecosystem01__item-txt">IoTコネクテッド</p>
                         <p class="p-ecosystem01__item-note">（技術開発）</p>
                     </a>
@@ -41,7 +41,7 @@
                 <p class="p-ecosystem01__item-year">2024</p>
                 <div class="p-ecosystem01__item-btn">
                     <span class="p-ecosystem01__item-link">						
-                        <img class="p-ecosystem01__item-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem04.png" alt="">		
+                        <img class="p-ecosystem01__item-img lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem04.png" alt="">		
                         <p class="p-ecosystem01__item-txt --mt">シェアリング<br>プラットフォーム</p>
                         <p class="p-ecosystem01__item-note">（開発中）</p>
                     </span>
@@ -49,8 +49,8 @@
             </li>
         </ul>
         <div class="p-ecosystem01__foot">
-            <img class="u-hide_sp" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem_foot01.png" alt="" width="200" height="200">
-            <img class="u-hide_pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem_foot01_sp.png" alt="" width="335" height="100">
+            <img class="u-hide_sp lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem_foot01.png" alt="" width="200" height="200">
+            <img class="u-hide_pc lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/microfinance-business/ico_ecosystem_foot01_sp.png" alt="" width="335" height="100">
         </div>
     </div>
 </section>

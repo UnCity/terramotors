@@ -19,7 +19,7 @@
   }
   th{
     width: 145px;
-    font-weight: 700;
+    font-weight: 700
   }
   td{
     font-weight: 500;
@@ -35,6 +35,7 @@
       font-size: 23px;
       width: 102px;
       padding: 20px 0;
+      color: #041548;
       @include mq() {
         font-size: 17px;
         width: 65px;

@@ -10,11 +10,11 @@ get_header(); ?>
 
     <!-- //// PAGE TITLE START //// -->
 	<div class="c-pageTitle-large">
-        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/fv.png" alt=""></div>
+        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/fv.png" alt="テック事業"></div>
 		<div class="l-wrapper">
 			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
 			<p class="c-pageTitle-large__ja">テック事業</p>
-			<p class="c-pageTitle-large__txt">IoT テクノロジーがどのように EV をグローバル ネットワークにシームレスに統合し、接続性、効率性<br>を強化し、スマート モビリティの未来を推進するかを探ります。</p>
+			<p class="c-pageTitle-large__txt">IoT テクノロジーがどのように EV をグローバル ネットワークにシームレスに統合し、接続性、効率性<br class="u-hide_sp">を強化し、スマート モビリティの未来を推進するかを探ります。</p>
         </div>
       </div>
     <!-- //// PAGE TITLE END //// -->
@@ -29,7 +29,7 @@ get_header(); ?>
 			<!-- Technology START -->
 			<section class="p-technology-business__technology l-sec">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">Technology</h2>
+					<span class="c-ttl">Technology</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">テクノロジーで繋ぐ</h2>
@@ -41,7 +41,7 @@ get_header(); ?>
 			<!-- IoT START -->
 			<section class="p-technology-business__iot l-sec">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">IoT</h2>
+					<span class="c-ttl">IoT</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<div class="c-set01">
@@ -50,7 +50,7 @@ get_header(); ?>
 							<p>EV3輪の車体にはIoTを設置しています。ダッシュボード上でドライバーの運行情報やローン返済状況を理することで、返済率の向上に貢献しています。</p>
 						</div>
 						<div class="c-set01__img">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/iot01.jpg" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/iot01.jpg" alt="IoT搭載" class="lazyload obj_image">
 						</div>
 					</div>
 				</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 			<!-- Apps START -->
 			<section class="p-technology-business__apps l-sec">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">Apps</h2>
+					<span class="c-ttl">Apps</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<div class="c-set01">
@@ -69,7 +69,7 @@ get_header(); ?>
 							<p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
 						</div>
 						<div class="c-set01__img">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/apps01.jpg" alt="">
+							<img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/apps01.jpg" alt="アプリケーション" class="lazyload obj_image">
 						</div>
 					</div>
 				</div>
@@ -84,14 +84,14 @@ get_header(); ?>
 				<div class="l-wrapper c-slideup init d_50">
 					<ul class="c-list__why">
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why01.png" alt=""></div>
+							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why01.png" alt="顧客体験の向上" class="lazyload obj_image"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">顧客体験の向上</h3>
 								<p class="c-list__why-item-txt">テラモーターズは、ユーザーとテックで繋がることでアフターケアの提供を実現しています。これは、新興国で一般的な「売り切りモデル」に対する課題に対応するためであり、ドライバーが車体の故障時に安心してサポートを受けられる日本ブランドならではの強みとして提供しています。</p>
 							</div>
 						</li>
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why02.png" alt=""></div>
+							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why02.png" alt="ROIの最大化" class="lazyload obj_image"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">ROIの最大化</h3>
 								<p class="c-list__why-item-txt">IoTとアプリケーションを活用した稼働状況の一元管理により、ビジネスオーナーはドライバーの稼働率を最適化。ドライバーは、最寄りのEV充電所の案内や故障時の迅速なサポートを受けられるため、一日のパフォーマンスを向上しています。</p>

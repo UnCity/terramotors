@@ -12,7 +12,7 @@ div.c-breadcrumbs {
 	@extend %font-size_14;
     font-family: $sub-font-family;
     letter-spacing: 0.05em;
-
+	color: #000;
 	overflow-x: auto;
 	overflow-y: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -46,8 +46,8 @@ div.c-breadcrumbs {
                 top: 30%;
                 width: 6px;
                 height: 6px;
-                border-left: 2px solid #000;
-                border-top: 2px solid #000;
+                border-left: 2px solid #041548;
+                border-top: 2px solid #041548;
                 -moz-transform: rotate(135deg);
                 -webkit-transform: rotate(135deg);
                 -ms-transform: rotate(135deg);
@@ -57,7 +57,7 @@ div.c-breadcrumbs {
 		}
 
         span{
-            color: $main-color;
+            color: #000;
             font-weight: bold;
         }
 

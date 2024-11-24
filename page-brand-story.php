@@ -10,7 +10,7 @@ get_header(); ?>
 
     <!-- //// PAGE TITLE START //// -->
 	<div class="c-pageTitle-large">
-        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/fv.png" alt=""></div>
+        <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/fv.png" alt="ブランドストーリー"></div>
 		<div class="l-wrapper">
 			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
 			<p class="c-pageTitle-large__ja">ブランドストーリー</p>
@@ -29,7 +29,7 @@ get_header(); ?>
 			<!-- Manifesto START -->
 			<section class="p-brand-story__manifesto l-sec --bgImage">
 				<div class="c-ttlBox">
-					<h2 class="c-ttl">Manifesto</h2>
+					<span class="c-ttl">Manifesto</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<h2 class="c-ttl02">未来への宣言</h2>
@@ -67,11 +67,11 @@ get_header(); ?>
 					<h2 class="c-ttl">Mission</h2>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
-					<p class="p-brand-story__ttl-large">EVの力を、人の可能性に。</p>
+					<p class="p-brand-story__ttl-large">EVの力を、<br class="u-hide_pc">人の可能性に。</p>
 					<h2 class="c-ttl02">Brand Visual Identity</h2>
 					<p>テラモーターズのブランドビジュアルは、「テラDNA」を象徴する小さな粒子が、分断された壁をどんどん越えて流れ込むイメージから生まれました。製造と金融の分野、貧富の差、先進国と途上国、ガソリン車からEVへのシフトなど、さまざまな領域を粒子が自由に行き来しながら、今の時代に必要なものへと変化していきます。</p>
 					<p>この新しい「有機体」となったテラモーターズは、人と地球が共に生きるための新しいエコシステムを創り出していきます。世界をもっと良い場所にしたいと願う全ての人と一緒に、人や社会を前進させる革新的な技術や仕組みを生み出し続けます。</p>
-					<div class="p-brand-story__mission-img c-slideup init d_50"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/misson_imgs.png" alt=""></div>
+					<div class="p-brand-story__mission-img c-slideup init d_50"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/misson_imgs.png" alt="EVの力を、人の可能性に。"></div>
 				</div>
 			</section>
 			<!-- Mission END -->

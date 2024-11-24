@@ -4,11 +4,17 @@
 .c-set01{
     display: flex;
     gap: 65px;
+    &+&{
+      margin-top: 106px;
+    }
     &__txt{
       flex: 1;
     }
     &__img{
       width: 50%;
+    }
+    &.--reverse{
+      flex-direction: row-reverse;
     }
     @include mq() {
       display: block;
