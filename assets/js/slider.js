@@ -1,5 +1,4 @@
 // スライダー // Slider
-
 document.addEventListener('DOMContentLoaded', function() {
     const needsSliders = document.querySelectorAll('.p-ev3__needs__item-slider');
     if (needsSliders.length > 0) {

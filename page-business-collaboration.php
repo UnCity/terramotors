@@ -61,7 +61,7 @@ get_header(); ?>
 				<div class="p-cta__cont">
 					<p class="p-cta__ttl">お問い合わせ</p>
 					<p class="p-cta__text">B2Bコラボレーションに関するご相談</p>
-					<p class="p-cta__button"><a href="" class="c-btn --wh" alt="お問い合わせフォームへ">Contact Form</a></p>
+					<p class="p-cta__button"><a href="<?php echo home_url(); ?>/contact/" class="c-btn --wh" alt="お問い合わせフォームへ">Contact Form</a></p>
 					<p class="p-cta__mail"><a href="" id="js-mailContact02" alt="メールでのお問い合わせ">xxxxx</a></p>
 				</div>
 			</div>
