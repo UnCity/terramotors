@@ -4,7 +4,7 @@ get_header(); ?>
 
 <!-- //// ALL START //// -->
 
-<div id="container" class="p-casestudy">
+<div id="container" class="p-casestudy --governments">
 
     <?php get_sidebar('header'); ?>
 
@@ -28,24 +28,22 @@ get_header(); ?>
 
         <main role="main" class="l-page__main">
 			<!-- Finance START -->
-			<section class="p-casestudy__governments l-sec">
+			<section class="p-casestudy__story l-sec --bgImage">
 				<div class="c-ttlBox">
 					<span class="c-ttl">Governments</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
 					<div class="c-set01">
 						<div class="c-set01__txt">
-							<h2 class="c-ttl02">この文章はダミーです
-							この文章はダミーです</h2>
-							<p>この文章はダミーですこの文章はダミーです
-							この文章はダミーですこの文章はダミーです</p>
-							<p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-							<p>この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
-							<p class="c-btn"><a href="#" class="c-btn__link">Read More</a></p>
+							<h2 class="p-casestudy__story-large-ttl">この文章はダミーです<br class="u-hide_sp">この文章はダミーです</h2>
+							<p class="p-casestudy__story-sub-ttl">この文章はダミーですこの文章はダミーです<br class="u-hide_sp">この文章はダミーですこの文章はダミーです</p>
+							<p class="p-casestudy__story-txt">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです<br class="u-hide_sp">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+							<p class="p-casestudy__story-txt">この文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーですこの文章はダミーです</p>
+							<p class="p-casestudy__story-btn c-btn"><a href="#" class="c-btn__link">Read More</a></p>
 						</div>
 						<div class="c-set01__img">
 							<figure>
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/governments/finance01.jpg" alt="政府との取り組み">
+								<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/governments/governments01.jpg" alt="政府との取り組み">
 								<figcaption>この文章はダミーですこの文章はダミーです</figcaption>
 							</figure>
 						</div>

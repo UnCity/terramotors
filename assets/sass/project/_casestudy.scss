@@ -17,8 +17,16 @@
     width: 47.8%;
     height: 500px;
   }
-  .p-ecosystem01 .l-wrapper{
-    padding-top: 40px;
+  &.--collaboration,
+  &.--governments{
+    .p-ecosystem01{
+      padding-top: 125px;
+    }
+  }
+  @include mq_up() {
+    .p-ecosystem01 .l-wrapper{
+      padding-top: 40px;
+    }
   }
   @include mq(pc) {
     .c-ttl_box{
@@ -40,6 +48,9 @@
 
 .p-casestudy__story{
   padding-bottom: 178px;
+  &.l-sec.--bgImage{
+    background-position: center bottom 110px;
+  }
   .l-wrapper{
     padding-top: 60px;
   }
@@ -56,6 +67,16 @@
       display: block;
       letter-spacing: .03em;
     }
+  }
+  &-large-ttl{
+    font-size: 35px;
+    letter-spacing: .05em;
+    margin-bottom: 10px;
+  }
+  &-sub-ttl{
+    font-size: 19px;
+    letter-spacing: .05em;
+    margin-bottom: 25px;
   }
   &-area{
     position: relative;
@@ -95,6 +116,16 @@
       margin-top: 35px;
     }
   }
+  &-btn{
+    @extend %en-font;
+    font-size: 20px;
+    letter-spacing: -.02em;
+  }
+  figcaption{
+    font-size: 14px;
+    margin-top: 13px;
+    letter-spacing: .05em;
+  }
   @include mq_up() {
     .c-set01__img{
       width: calc(50% - 25px);
@@ -103,6 +134,12 @@
   }
   @include mq() {
     padding-bottom: 80px;
+    .l-wrapper{
+      padding-top: 30px;
+    }
+    &.l-sec.--bgImage{
+      background-position: center bottom 500px;
+    }
     .c-set01{
       +.c-set01{
         margin-top: 60px;

@@ -4,7 +4,7 @@ get_header(); ?>
 
 <!-- //// ALL START //// -->
 
-<div id="container" class="p-casestudy">
+<div id="container" class="p-casestudy --collaboration">
 
     <?php get_sidebar('header'); ?>
 
@@ -28,24 +28,22 @@ get_header(); ?>
 
 	<main role="main" class="l-page__main">
 		<!-- Finance START -->
-		<section class="p-casestudy__collaboration l-sec">
+		<section class="p-casestudy__story l-sec --bgImage">
 			<div class="c-ttlBox">
 				<span class="c-ttl">collaboration</span>
 			</div>
 			<div class="l-wrapper c-slideup init d_50">
 				<div class="c-set01">
 					<div class="c-set01__txt">
-						<h2 class="c-ttl02">東インド最大のパンメーカー、
-						Moreish社と業務提携</h2>
-						<p>Terra Motors E V三輪が
-						デリバリーサービスのエリア拡大をサポート</p>
-						<p>モーリッシュ・フーズは1989年にジャールカンド州ランチに設立され、30年以上にわたりインド東部でパン製造とベーカリー事業を展開しています。<br>自社所有の工場で製造から流通までを管理し、ヨーロッパ製と日本製の工場設備を使用。品質検査を定期的に行い、効率的な流通網を構築して、インド東部で広く知られるリーディングカンパニーです。<br>モーリッシュ・フーズ社では、4つの自社製造拠点から20km以内のラストワンマイルデリバリー対応、及びエリアの小売店への配送に活用するため、全4工場への導入を実施しました。<br>初回の車体導入数は、350台予定であり、今回の業務提携を通し、拡大する宅配ニーズに今後もテラモーターズとモーリッシュ・フーズ社は戦略的パートナーとして、全国のお客様の利便性向上に努めてまいります。</p>
-						<p>モーリッシュ・フーズ社では、4つの自社製造拠点から20km以内のラストワンマイルデリバリー対応、及びエリアの小売店への配送に活用するため、全4工場への導入を実施しました。<br>初回の車体導入数は、350台予定であり、今回の業務提携を通し、拡大する宅配ニーズに今後もテラモーターズとモーリッシュ・フーズ社は戦略的パートナーとして、全国のお客様の利便性向上に努めてまいります。</p>
-						<p class="c-btn"><a href="#" class="c-btn__link">Read More</a></p>
+						<h2 class="p-casestudy__story-large-ttl">東インド最大のパンメーカー、Moreish社と業務提携</h2>
+						<p class="p-casestudy__story-sub-ttl">Terra Motors EV三輪が<br class="u-hide_sp">デリバリーサービスのエリア拡大をサポート</p>
+						<p class="p-casestudy__story-txt">モーリッシュ・フーズは1989年にジャールカンド州ランチに設立され、30年以上にわたりインド東部でパン製造とベーカリー事業を展開しています。<br class="u-hide_sp">自社所有の工場で製造から流通までを管理し、ヨーロッパ製と日本製の工場設備を使用。品質検査を定期的に行い、効率的な流通網を構築して、インド東部で広く知られるリーディングカンパニーです。</p>
+						<p class="p-casestudy__story-txt">モーリッシュ・フーズ社では、4つの自社製造拠点から20km以内のラストワンマイルデリバリー対応、及びエリアの小売店への配送に活用するため、全4工場への導入を実施しました。<br class="u-hide_sp">初回の車体導入数は、350台予定であり、今回の業務提携を通し、拡大する宅配ニーズに今後もテラモーターズとモーリッシュ・フーズ社は戦略的パートナーとして、全国のお客様の利便性向上に努めてまいります。</p>
+						<p class="p-casestudy__story-btn c-btn"><a href="#" class="c-btn__link" alt="詳細を見る">Read More</a></p>
 					</div>
 					<div class="c-set01__img">
 						<figure>
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/collaboration/finance01.jpg" alt="Terra Motors L3ローダーモデル 企業カスタムモデル">
+							<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/business-collaboration/collaboration01.jpg" alt="Terra Motors L3ローダーモデル 企業カスタムモデル">
 							<figcaption>Terra Motors L3ローダーモデル 企業カスタムモデル</figcaption>
 						</figure>
 					</div>
@@ -63,8 +61,8 @@ get_header(); ?>
 				<div class="p-cta__cont">
 					<p class="p-cta__ttl">お問い合わせ</p>
 					<p class="p-cta__text">B2Bコラボレーションに関するご相談</p>
-					<p class="p-cta__button"><a href="" class="c-btn --wh">Contact Form</a></p>
-					<p class="p-cta__mail"><a href="" id="js-mailContact02">xxxxx</a></p>
+					<p class="p-cta__button"><a href="" class="c-btn --wh" alt="お問い合わせフォームへ">Contact Form</a></p>
+					<p class="p-cta__mail"><a href="" id="js-mailContact02" alt="メールでのお問い合わせ">xxxxx</a></p>
 				</div>
 			</div>
 		</div>
