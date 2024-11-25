@@ -7,6 +7,15 @@
   padding: 110px 0 107px;
   background: #fff;
   overflow: hidden;
+  /* スライドの動き等速 */
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+  /* 画像のサイズ調整 */
+  .swiper-slide img {
+    height: auto;
+    width: 100%;
+  }
   @include mq(){
     margin-top: 140px;
     padding: 40px 0;

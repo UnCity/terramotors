@@ -31,13 +31,6 @@
                     <!-- ARTICLE DITAIL START -->
                     <div class="c-articleHead">
 
-                        <!-- サムネイル  thumbnail-->
-                        <?php if (has_post_thumbnail()) : ?>
-                            <div class="c-articleHead__thum">
-                                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="<?php the_post_thumbnail_url('large'); ?>" alt="<?php the_title(); ?>">
-                            </div>
-                        <?php endif; ?>
-
                         <!-- タイトル   title-->
                         <h1 class="c-articleHead__ttl"><?php the_title(); ?></h1>
 

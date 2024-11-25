@@ -4,10 +4,23 @@
 <!-- //// ALL START //// -->
 
 <!-- classにコンテンツディレクトリを付与する Assign content directory to class-->
-<div id="container" class="article">
+<div id="container" class="article l-noBg">
 
 
 	<?php get_sidebar('header'); ?>
+
+	<!-- //// PAGE TITLE START //// -->
+
+	<div class="c-pageTitle">
+        <div class="l-wrapper">
+
+            <h1>404</h1>
+            <p>Not Found</p>
+
+        </div>
+    </div>
+
+    <!-- //// PAGE TITLE END //// -->
 
 	<div class="l-page">
 

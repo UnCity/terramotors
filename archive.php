@@ -36,16 +36,20 @@
                 <div class="l-wrapper">
                     <div class="list-cate">
                        <ul>
-                            <li><a href="<?php echo esc_url(home_url('/news/')); ?>">すべて</a></li>
                             <?php
                             $terms = get_terms(array(
                                 'taxonomy' => 'category',
                                 'hide_empty' => false, 
                             ));
-
+                            $current_cat = get_queried_object();
+                            $term_id = $current_cat->term_id;
+                            ?>
+                            <li class="<?php echo !$term_id ? 'is-current' : ''; ?>"><a href="<?php echo esc_url(home_url('/news/')); ?>">すべて</a></li>
+                            <?php
                             if (!empty($terms) && !is_wp_error($terms)) {
                                 foreach ($terms as $term) {
-                                    echo '<li><a href="' . esc_url(get_term_link($term)) . '">' . esc_html($term->name) . '</a></li>';
+                                    $current = $term_id === $term->term_id ? 'is-current' : '';
+                                    echo '<li class="'.$current.'"><a href="' . esc_url(get_term_link($term)) . '">' . esc_html($term->name) . '</a></li>';
                                 }
                             } else {
                                 echo '<li>No categories found</li>';

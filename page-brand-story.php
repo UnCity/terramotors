@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="c-pageTitle-large">
         <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/brand-story/fv.png" alt="ブランドストーリー"></div>
 		<div class="l-wrapper">
-			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<h1 class="c-pageTitle-large__en">Brand Story</h1>
 			<p class="c-pageTitle-large__ja">ブランドストーリー</p>
 			<p class="c-pageTitle-large__txt">テラモーターズは、「日本発、世界一」を自らの手で。をモットーに日本発グローバルブランド<br>として日本の遺伝子をローカルチームと融合し続けることで独自のカルチャーを醸成してきました。</p>
         </div>

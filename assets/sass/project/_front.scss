@@ -21,6 +21,13 @@
     &-video{
       width: 100%;
     }
+    @include mq(){
+      video{
+        width: 100%;
+        height: 122vw;
+        object-fit: cover;
+      }
+    }
     &-img{
       position: absolute;
       width: 100%;
@@ -86,6 +93,9 @@
     padding-top: 34.30%;
     position: relative;
     @include mq(){
+      padding-top: 45%;
+    }
+    @include mq(sp){
       padding-top: 107.7%;
     }
     &::after{
@@ -178,6 +188,9 @@
     padding-top: 706px;
   }
   @include mq(){
+    padding-top: 74.66%;
+  }
+  @include mq(sp){
     padding-top: 154.66%;
   }
 
@@ -278,15 +291,22 @@
       width: 31.5%;
     }
     @include mq(){
+      background-position: top center;
       & + .p-front__case__item{
         margin-top: 30px;
       }
+    }
+    @include mq(sp){
+      background-position: center center;
     }
     &:before{
       content: "";
       display: block;
       padding-top: 135%;
       @include mq(){
+        padding-top: 45%;
+      }
+      @include mq(sp){
         padding-top: 127%;
       }
     }
@@ -301,13 +321,13 @@
       background-size: contain;
     }
     &.--cs{
-      background-image: url(../img/front/cs.jpg);
+      background-image: url(../img/front/cs.png);
     }
     &.--bc{
-      background-image: url(../img/front/bc.jpg);
+      background-image: url(../img/front/bc.png);
     }
     &.--ig{
-      background-image: url(../img/front/ig.jpg);
+      background-image: url(../img/front/ig.png);
     }
 
     &-box{

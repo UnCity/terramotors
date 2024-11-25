@@ -13,7 +13,7 @@ get_header(); ?>
         <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/customers-story/fv.png" alt="<?php the_title(); ?>"></div>
 		<div class="l-wrapper">
 			<p class="c-pageTitle-large__subttl">Case Study</p>
-			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<h1 class="c-pageTitle-large__en">Customer’s Story</h1>
 			<p class="c-pageTitle-large__ja">商用ドライバーのサクセスストーリー</p>
 			<p class="c-pageTitle-large__txt">テラモーターズのエンドユーザーは、EV3輪やカーゴの商用ドライバーです。<br>テラモーターズのEVエコシステムを活用して、成長をドライブさせた方々のストーリーをご紹介します。</p>
         </div>

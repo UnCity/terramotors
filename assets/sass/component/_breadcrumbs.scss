@@ -17,6 +17,7 @@ div.c-breadcrumbs {
 	overflow-y: hidden;
 	-webkit-overflow-scrolling: touch;
 	overflow-scrolling: touch;
+	z-index: 2;
 
 	/*スクロールバー非表示*/
 	/* IE, Edge 対応 */

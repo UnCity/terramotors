@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="c-pageTitle-large">
         <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/technology-business/fv.png" alt="テック事業"></div>
 		<div class="l-wrapper">
-			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<h1 class="c-pageTitle-large__en">Technology Business</h1>
 			<p class="c-pageTitle-large__ja">テック事業</p>
 			<p class="c-pageTitle-large__txt">IoT テクノロジーがどのように EV をグローバル ネットワークにシームレスに統合し、接続性、効率性<br class="u-hide_sp">を強化し、スマート モビリティの未来を推進するかを探ります。</p>
         </div>

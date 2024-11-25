@@ -12,7 +12,7 @@ get_header(); ?>
         <div class="p-about__hero-wrap">
             <div class="p-about__hero-item hero-item01">
 				<div class="p-about__hero-bg">
-					<video class="p-about__hero-bg" autoplay muted loop playsinline>
+					<video class="p-about__hero-bg" poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster.jpg" autoplay muted loop playsinline>
 						<source src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -29,8 +29,11 @@ get_header(); ?>
                 </div>
             </div>
 			<div class="p-about__hero-item hero-item03">
-				<div class="p-about__hero-bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/hero03.png" alt="イメージ画像"></div>
-                </video>
+				<div class="p-about__hero-bg">
+					<video class="p-about__hero-bg" poster="<?php echo get_template_directory_uri(); ?>/assets/img/about/hero03-poster.jpg" autoplay muted loop playsinline>
+						<source src="<?php echo get_template_directory_uri(); ?>/assets/img/about/hero03.mp4" type="video/mp4">
+					</video>
+				</div>
                 <div class="p-about__hero-content">
 					<p class="p-about__hero-en">Title</p>
                     <p class="p-about__hero-text">コピーコピーコピーコピーコピー</p>

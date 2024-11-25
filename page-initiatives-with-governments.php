@@ -13,10 +13,22 @@ get_header(); ?>
         <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/governments/fv.png" alt="政府との取り組み"></div>
 		<div class="l-wrapper">
 			<p class="c-pageTitle-large__subttl">Case Study</p>
-			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<h1 class="c-pageTitle-large__en">Initiatives with Governments</h1>
 			<p class="c-pageTitle-large__ja">政府との取り組み</p>
 			<p class="c-pageTitle-large__txt">テラモーターズでは、インドの輸送インフラの改善やEV浸透の促進を目的に、<br>B2Bにおけるコラボレーションを積極的に実施することで、社会的インパクトを創出しています。</p>
         </div>
+		<div class="c-pageTitle-large__bg" 
+		style="
+			position: absolute;
+			top: 50px;
+			left: 0;
+			width: 100%;
+			height: calc(100% - 50px);
+			object-fit: cover;">
+			<source media="(min-width: 769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/esg/coming-soon.png" sizes="">
+			<source media="(max-width: 768px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/esg/coming-soon-sp.png" sizes="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/img/esg/coming-soon.png" alt="Coming soon">
+		</div>
       </div>
     <!-- //// PAGE TITLE END //// -->
 

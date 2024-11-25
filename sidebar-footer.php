@@ -35,7 +35,7 @@
           <li class="l-footer__item">
             <span>事業内容</span>
             <ul>
-              <li><a href="<?php echo esc_url(home_url('/ev3/')); ?>">EV3輪事業</a></li>
+              <li><a href="<?php echo esc_url(home_url('/ev-three-wheel-business/')); ?>">EV3輪事業</a></li>
               <li><a href="<?php echo esc_url(home_url('/technology-business/')); ?>">テック事業</a></li>
               <li><a href="<?php echo esc_url(home_url('/microfinance-business/')); ?>">マイクロファイナンス事業</a></li>
             </ul>
@@ -43,19 +43,19 @@
           <li class="l-footer__item">
             <span>ケーススタディ</span>
             <ul>
-              <li><a href="<?php echo esc_url(home_url('/customer-story/')); ?>">商用ドライバー</a></li>
+              <li><a href="<?php echo esc_url(home_url('/customers-story/')); ?>">商用ドライバー</a></li>
               <li><a href="<?php echo esc_url(home_url('/business-collaboration/')); ?>">ビジネスセクター</a></li>
               <li><a href="<?php echo esc_url(home_url('/initiatives-with-governments/')); ?>">政府との取り組み</a></li>
             </ul>
           </li>
           <li class="l-footer__item --sub">
             <ul>
-              <li><a href="<?php echo esc_url(home_url('/recruit/')); ?>">採用</a></li>
+              <li><a href="<?php echo esc_url(home_url('/career/')); ?>">採用</a></li>
               <li><a href="<?php echo esc_url(home_url('/library/')); ?>">ライブラリー</a></li>
               <li><a href="<?php echo esc_url(home_url('/press/')); ?>">プレス</a></li>
               <li><a href="<?php echo esc_url(home_url('/news/')); ?>">ニュース</a></li>
               <li><a href="<?php echo esc_url(home_url('/contact/')); ?>">お問い合わせ</a></li>
-              <li><a class="mini" href="<?php echo esc_url(home_url('/privacy/')); ?>">プライバシー・ポリシー</a></li>
+              <li><a class="mini" href="<?php echo esc_url(home_url('/privacy-policy/')); ?>">プライバシー・ポリシー</a></li>
             </ul>
           </li>
         </ul>

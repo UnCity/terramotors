@@ -67,10 +67,16 @@
             a{
                 display: block;
                 padding: 8px 30px;
-                background: $main-color;
-                color: #fff;
+                color: $main-color;
+                border: solid 1px $main-color;
                 @include mq(){
                     padding: 4px 10px;
+                }
+            }
+            &.is-current {
+                a{
+                    background: $main-color;
+                    color: #fff;
                 }
             }
         }

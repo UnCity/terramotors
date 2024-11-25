@@ -22,7 +22,7 @@
           <video playsinline autoplay muted poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster.jpg" loop class="p-front__fv__image-video pc-video u-hide_sp" id="js-video-pc" src="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
 
           <!-- sp版 -->
-          <video playsinline autoplay muted poster=".<?php echo get_template_directory_uri(); ?>/assets/img/front/poster-sp.jpg" loop class="sp-video u-hide_pc" id="js-video-sp" src="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv-sp.mp4"></video>
+          <video playsinline autoplay muted poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster-sp.jpg" loop class="sp-video u-hide_pc" id="js-video-sp" src="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv-sp.mp4"></video>
           
           <div class="p-front__fv__image-img u-hide_sp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv-mask.png" alt="ファーストビューイメージ">
@@ -118,49 +118,7 @@
       <!-- Case Study START -->
       <section class="p-front__case l-sec --bgImage">
 
-        <div class="c-ttlBox">
-          <h2 class="c-ttl">Case Study</h2>
-        </div>
-
-        <div class="l-wrapper">
-
-          <p class="p-front__case__lead c-slideup init d_50">
-            テラモーターズは、エンドユーザーであるドライバーだけでなく、<br class="u-hide_sp">
-            政府やビジネスセクターとの戦略的提携により、社会的価値、インパクトを生み出す<br>
-            EVエコシステムの構築に挑戦しています。
-          </p>
-
-          <ul class="p-front__case__list">
-            <li class="p-front__case__item --cs c-slideup init d_50">
-              <a href="<?php echo home_url(); ?>/customers-story/" class="p-front__case__item-box">
-                <p class="p-front__case__item-subttl">Customer’s Story</p>
-                <h3 class="p-front__case__item-ttl">お客様の声</h3>
-                <p class="p-front__case__item-text">
-                  商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。
-                </p>
-              </a>
-            </li>
-            <li class="p-front__case__item --bc c-slideup init d_50">
-              <a href="<?php echo home_url(); ?>/business-collaboration/" class="p-front__case__item-box">
-                <p class="p-front__case__item-subttl">Business Collaboration</p>
-                <h3 class="p-front__case__item-ttl">法人との取り組み</h3>
-                <p class="p-front__case__item-text">
-                  B2Bにおける戦略的提携は、革新的なビジネスシナジーによって、産業課題を解決しています。
-                </p>
-              </a>
-            </li>
-            <li class="p-front__case__item --ig c-slideup init d_50">
-              <a href="<?php echo home_url(); ?>/initiatives-with-governments/" class="p-front__case__item-box">
-                <p class="p-front__case__item-subttl">Initiatives with Governments</p>
-                <h3 class="p-front__case__item-ttl">政府との取り組み</h3>
-                <p class="p-front__case__item-text">
-                  政府機関との緊密な連携により、新興国におけるEVエコシステムを構築し、地域浸透戦略を実施することで、EVを人々にとってより身近な交通インフラへと進化させています。
-                </p>
-              </a>
-            </li>
-          </ul>
-
-        </div>
+        <?php get_template_part('template-parts/parts/case-study'); ?>
 
         <div class="p-front__case__logo case-swiper">
           <div class="swiper-wrapper">
@@ -230,7 +188,7 @@
             <div class="c-column__cont">
               <h2 class="c-column__cont-ttl">EVを通じて人々の力を解き放つ。</h3>
                 <p class="c-column__cont-text">テラモーターズの秘話をご覧ください。当社の使命、価値観、そしてよりクリーンで明るい未来に向けて当社を牽引する情熱的なチームについて学んでください。</p>
-                <a href="" class="c-btn">read more</a>
+                <a href="./about/" class="c-btn">read more</a>
             </div>
           </div>
 
@@ -241,7 +199,7 @@
             <div class="c-column__cont">
               <h2 class="c-column__cont-ttl">無限の機会と変化の世界。</h3>
                 <p class="c-column__cont-text">モビリティの未来を形作る私たちの仕事に加わってください。刺激的なキャリア チャンスを探求し、世界に良い影響を与えることに専念するダイナミックなチームの一員になりましょう。</p>
-                <a href="" class="c-btn">Join Us</a>
+                <a href="./career/" class="c-btn">Join Us</a>
             </div>
           </div>
 

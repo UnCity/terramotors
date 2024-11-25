@@ -216,3 +216,25 @@ jQuery(function($) {
         $('#js-mailContact03').attr('href', 'mailto:' + address).text(address);
     }
 })
+
+// CASEスライダーの起動 // Launch the top slider
+
+const swiper = new Swiper(".case-swiper", {
+	loop: true,
+	slidesPerView: 0.35, // 一度に表示する枚数
+	speed: 18000, // ループの時間
+	allowTouchMove: false, // スワイプ無効
+	autoplay: {
+	  delay: 0, // 途切れなくループ
+	},
+	breakpoints: {
+	  // スライドの表示枚数：500px以上の場合  
+	  560: {
+		slidesPerView: 0.5,
+	  },
+	  769: {
+		slidesPerView: 1.2,
+	  }
+	}
+  
+});

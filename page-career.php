@@ -13,7 +13,7 @@ get_header(); ?>
 
 	 <div class="c-pageTitle">
         <div class="l-wrapper">
-            <h1><?php the_title(); ?></h1>
+            <h1>Career</h1>
             <p>採用情報</p>
         </div>
     </div>

@@ -12,9 +12,9 @@ get_header(); ?>
 	<div class="c-pageTitle-large">
         <div class="c-pageTitle-large__bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/fv.png" alt="EV3輪事業"></div>
 		<div class="l-wrapper">
-			<h1 class="c-pageTitle-large__en"><?php the_title(); ?></h1>
+			<h1 class="c-pageTitle-large__en">EV Three-Wheel Business</h1>
 			<p class="c-pageTitle-large__ja">EV3 輪事業  クリーンエネルギーの力で未来を変えよう</p>
-			<p class="c-pageTitle-large__txt">テラモーターズのEV三輪車は、日本の技術を活用し、手頃な価格と耐久性の双方を追求した設計です。<br>クリーンエネルギーによる、より良い未来への新たな旅立ちをサポートします。</p>
+			<p class="c-pageTitle-large__txt">テラモーターズのEV三輪車は、日本の技術を活用し、手頃な価格と耐久性の双方を追求した設計です。<br class="u-hide_sp">クリーンエネルギーによる、より良い未来への新たな旅立ちをサポートします。</p>
         </div>
       </div>
     <!-- //// PAGE TITLE END //// -->
@@ -35,7 +35,7 @@ get_header(); ?>
 					<h2 class="c-ttl02">新興経済国におけるEV3輪</h2>
 					<p>新興国では、EV三輪車は都市部のラストワンマイル、<br>そしてまだ道路整備やEVインフラ整備の整わない農村部においても欠かせない公共交通手段となっています。<br>政府主導のEV施策、補助金により、ガソリン車に代わるものとしてEVへの急速なシフトが実現しました。</p>
 					<div class="p-ev3__ev-mobility__video">
-						<video playsinline="" controls="" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
+						<video playsinline="" controls="" src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/movie.mp4"></video>
 					</div>
 				</div>
 			</section>
@@ -67,7 +67,7 @@ get_header(); ?>
 								<h3 class="p-ev3__needs__item-ttl">Y4A</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs02_01.jpg" alt="Y4A">
 									</div>
 								</div>
 							</div>
@@ -79,13 +79,13 @@ get_header(); ?>
 							<h3 class="p-ev3__needs__item-ttl">Y4A Pro</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide01">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs03_01.jpg" alt="Y4A Pro slide01">
 									</div>
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide02">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs03_02.jpg" alt="Y4A Pro slide02">
 									</div>
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Y4A Pro slide03">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs03_03.jpg" alt="Y4A Pro slide03">
 									</div>
 								</div>
 								<div class="swiper-pagination"></div>
@@ -98,13 +98,13 @@ get_header(); ?>
 								<h3 class="p-ev3__needs__item-ttl">Cargo</h3>
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide01">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs04_01.jpg" alt="Cargo slide01">
 									</div>
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide02">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs04_02.jpg" alt="Cargo slide02">
 									</div>
 									<div class="swiper-slide">
-										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs01_01.jpg" alt="Cargo slide03">
+										<img class="lazyload obj_image" src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/needs04_03.jpg" alt="Cargo slide03">
 									</div>
 								</div>
 								<div class="swiper-pagination"></div>
@@ -180,42 +180,7 @@ get_header(); ?>
 
 			<!-- Case Study START -->
 			<section class="p-ev3__case-study l-sec --bgImage">
-				<div class="c-ttlBox">
-					<h2 class="c-ttl">Case Study</h2>
-				</div>
-				<div class="l-wrapper">
-					<p class="p-front__case__lead c-slideup init d_50">テラモーターズは、エンドユーザーであるドライバーだけでなく、<br class="u-hide_sp">政府やビジネスセクターとの戦略的提携により、社会的価値、インパクトを生み出すEVエコシステムの構築に挑戦しています。</p>
-					<ul class="p-front__case__list">
-						<li class="p-front__case__item --cs c-slideup init d_50">
-							<a class="p-front__case__item-box">
-							<p class="p-front__case__item-subttl">Customer's Story</p>
-							<h3 class="p-front__case__item-ttl">商用ドライバーの声</h3>
-							<p class="p-front__case__item-text">
-								商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。
-							</p>
-							</a>
-						</li>
-						<li class="p-front__case__item --bc c-slideup init d_50">
-							<a class="p-front__case__item-box">
-							<p class="p-front__case__item-subttl">Business Collaboration</p>
-							<h3 class="p-front__case__item-ttl">法人との取り組み</h3>
-							<p class="p-front__case__item-text">
-								B2Bにおける戦略的提携は、革新的なビジネスシナジーによって、産業課題を解決しています。
-							</p>
-							</a>
-						</li>
-						<li class="p-front__case__item --ig c-slideup init d_50">
-							<a class="p-front__case__item-box">
-							<p class="p-front__case__item-subttl">Initiatives with Governments</p>
-							<h3 class="p-front__case__item-ttl">政府との取り組み</h3>
-							<p class="p-front__case__item-text">
-								政府機関との緊密な連携により、新興国におけるEVエコシステムを構築し、地域浸透戦略を実施することで、EVを人々にとってより身近な交通インフラへと進化させています。
-							</p>
-							</a>
-						</li>
-					</ul>
-					</div>
-				</div>
+				<?php get_template_part('template-parts/parts/case-study'); ?>
 			</section>
 			<!-- Case Study END -->
 
