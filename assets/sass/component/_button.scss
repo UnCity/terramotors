@@ -36,7 +36,34 @@
     min-width: 0;
     display: flex;
   }
+  &--back {
+    display: block;
+    position: relative;
+    max-width: 100px;
+    @extend %font-size_20;
+    letter-spacing: -0.04em;
+    padding-left: 65px;
+    margin: 16px auto 0;
+    @include mq() {
+        margin: 10px auto 0;
+        padding: 10px 0 10px 60px;
+    }
+
+    &:after {
+        position: absolute;
+        right: unset;
+        left: 4px;
+        bottom: unset;
+        top: 15px;
+        background-image: url("../img/arrow/arrow-btn-br.svg");
+        margin-left: 0;
+
+        @include mq() {
+            top: 8px;
+            left: 0;
+        }
+    }
+  }
 }
 
-.c-btn--return {
-}
+

@@ -1,0 +1,49 @@
+@charset "utf-8";
+@use "../index" as *;
+
+.c-list__why {
+  display: flex;
+  flex-wrap: wrap;
+  &-item {
+    width: calc(50% - 37px);
+    display: flex;
+    gap: 45px;
+    &-ico {
+      width: 117px;
+      flex-shrink: 0;
+    }
+    &-cont {
+      flex: 1;
+      margin-top: -5px;
+    }
+    &-txt{
+      line-height: 2.14;
+    }
+    .c-ttl02 {
+      margin-bottom: 10px;
+      letter-spacing: .1em;
+    }
+    &:nth-child(2n){
+      margin-left: 68px;
+    }
+  }
+  @include mq() {
+    display: block;
+    &-item {
+      width: 100%;
+      gap: 18px;
+      &+&{
+        margin-top: 40px;
+      }
+      .c-ttl02 {
+        font-size: 24px;
+      }
+      &:nth-child(2n){
+        margin-left: 0;
+      }
+      &-ico {
+        width: 60px;
+      }        
+    }
+  }
+}

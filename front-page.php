@@ -132,7 +132,7 @@
 
           <ul class="p-front__case__list">
             <li class="p-front__case__item --cs c-slideup init d_50">
-              <a class="p-front__case__item-box">
+              <a href="<?php echo home_url(); ?>/customers-story/" class="p-front__case__item-box">
                 <p class="p-front__case__item-subttl">Customer’s Story</p>
                 <h3 class="p-front__case__item-ttl">お客様の声</h3>
                 <p class="p-front__case__item-text">
@@ -141,7 +141,7 @@
               </a>
             </li>
             <li class="p-front__case__item --bc c-slideup init d_50">
-              <a class="p-front__case__item-box">
+              <a href="<?php echo home_url(); ?>/business-collaboration/" class="p-front__case__item-box">
                 <p class="p-front__case__item-subttl">Business Collaboration</p>
                 <h3 class="p-front__case__item-ttl">法人との取り組み</h3>
                 <p class="p-front__case__item-text">
@@ -150,7 +150,7 @@
               </a>
             </li>
             <li class="p-front__case__item --ig c-slideup init d_50">
-              <a class="p-front__case__item-box">
+              <a href="<?php echo home_url(); ?>/initiatives-with-governments/" class="p-front__case__item-box">
                 <p class="p-front__case__item-subttl">Initiatives with Governments</p>
                 <h3 class="p-front__case__item-ttl">政府との取り組み</h3>
                 <p class="p-front__case__item-text">

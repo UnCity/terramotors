@@ -1,0 +1,191 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ technology business ------------
+
+.p-casestudy{
+  .l-sec{
+    background-color: #fff;
+  }
+  .p-logos{
+    margin-top: 475px;
+  }
+  .en{
+    @extend %en-font;
+  }
+  .p-front__case__item{
+    width: 47.8%;
+    height: 500px;
+  }
+  &.--collaboration,
+  &.--governments{
+    .p-ecosystem01{
+      padding-top: 125px;
+    }
+  }
+  @include mq_up() {
+    .p-ecosystem01 .l-wrapper{
+      padding-top: 40px;
+    }
+  }
+  @include mq(pc) {
+    .c-ttl_box{
+      overflow: hidden;
+    }
+    .c-ttl{
+      font-size: 13vw;
+    }
+  }
+  @include mq() {
+    .p-front__case__item{
+      width: 100%;
+    }
+    .p-logos{
+      margin-top: 370px;
+    }
+  }
+}
+
+.p-casestudy__story{
+  padding-bottom: 178px;
+  &.l-sec.--bgImage{
+    background-position: center bottom 110px;
+  }
+  .l-wrapper{
+    padding-top: 60px;
+  }
+  .c-set01{
+    gap: 50px;
+  }
+  &-ttl{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .04em;
+    line-height: 1;
+    .large{
+      font-size: 50px;
+      display: block;
+      letter-spacing: .03em;
+    }
+  }
+  &-large-ttl{
+    font-size: 35px;
+    letter-spacing: .05em;
+    margin-bottom: 10px;
+  }
+  &-sub-ttl{
+    font-size: 19px;
+    letter-spacing: .05em;
+    margin-bottom: 25px;
+  }
+  &-area{
+    position: relative;
+    padding-left: 16px;
+    @extend %font-size_18;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 18px;
+    width: calc(50% - 25px);
+    &::before{
+      position: absolute;
+      content: "";
+      display: block;
+      width: 14px;
+      height: 20px;
+      left: 0;
+      top: 0;
+      background: url(../img/customers-story/ico_map.png) no-repeat center center / contain;
+    }
+  }
+  &-iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 369 / 570 * 100%;
+    iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-txt{
+    line-height: 2.1;
+    letter-spacing: .05em;
+    &+&{
+      margin-top: 35px;
+    }
+  }
+  &-btn{
+    @extend %en-font;
+    font-size: 20px;
+    letter-spacing: -.02em;
+  }
+  figcaption{
+    font-size: 14px;
+    margin-top: 13px;
+    letter-spacing: .05em;
+  }
+  @include mq_up() {
+    .c-set01__img{
+      width: calc(50% - 25px);
+      max-width: 570px;
+    }
+  }
+  @include mq() {
+    padding-bottom: 80px;
+    .l-wrapper{
+      padding-top: 30px;
+    }
+    &.l-sec.--bgImage{
+      background-position: center bottom 500px;
+    }
+    .c-set01{
+      +.c-set01{
+        margin-top: 60px;
+      }
+    }
+    &-txt{
+      &+&{
+        margin-top: 20px;
+      }
+    }
+    &-iframe{
+      padding-bottom: 60%;
+    }
+    .c-set01__img{
+      width: 100%;
+    }
+  }
+}
+
+.p-casestudy__case{
+  padding-top: 300px;
+  .l-wrapper{
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  &-lead{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .p-front__case__list{
+    margin-top: -185px;
+    transform: translateY(235px);
+  }
+  .p-front__case__item-ttl{
+    font-size: 24px;
+  }
+  .p-front__case__item-text{
+    min-height: 6em;
+  }
+  @include mq_up() {
+    &.l-sec.--bgImage{
+      background-position: center top -30px;
+      margin-top: -200px;
+    }
+  }
+  @include mq() {
+    padding-top: 83px;
+  }
+}

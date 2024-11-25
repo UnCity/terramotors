@@ -200,3 +200,19 @@ jQuery(function($) {
 		});
 	}
 });
+
+// add Email
+jQuery(function($) {
+    if ($('#js-mailContact').length > 0) {
+        var address = 'info' + '@' + 'terramotors.co.jp';
+        $('#js-mailContact').attr('href', 'mailto:' + address).text(address);
+    }
+    if ($('#js-mailContact02').length > 0) {
+        var address = 'info.in' + '@' + 'terramotors.co.jp';
+        $('#js-mailContact02').attr('href', 'mailto:' + address).text(address);
+    }
+    if ($('#js-mailContact03').length > 0) {
+        var address = 'info' + '@' + 'terramotors';
+        $('#js-mailContact03').attr('href', 'mailto:' + address).text(address);
+    }
+})

@@ -7,9 +7,7 @@
     background-color: rgba(0,11,51,.7);
     @include mq(){
         padding-bottom: 55px;
-        
     }
-
     .l-wrapper{
         margin-top: 120px;
         color: #fff;
@@ -44,6 +42,48 @@
         .c-btn{
             @extend %font-size_18;
             margin: auto;
+        }
+    }
+    &__button {
+        max-width: 350px;
+        width: 100%;
+        margin: 25px auto 18px;
+        .c-btn{
+            width: 100%;
+            @extend %font-size_20;
+            font-family: $sub-font-family;
+            letter-spacing: -0.04em;
+            padding: 12px 20px 8px 77px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            justify-content: center;
+        }
+    }
+    &__mail{
+        a{
+            color: #fff;
+            font-size: 19px;
+            font-family: $sub-font-family;
+            padding: 2px 0 2px 30px;
+            background: url("../img/common/icon_mail.svg") no-repeat left center;
+            background-size: 19px 14px;
+        }
+    }
+    &--bg {
+        background: url("../img/common/bg-cta.jpg") no-repeat center;
+        background-size: cover;
+        padding-bottom: 90px;
+        @include mq(){
+            padding-bottom: 45px;
+        }
+        .l-wrapper {
+            margin-top: 35px;
+        }
+        .p-cta__text{
+            margin-top: 9px;
+            @include mq(){
+                margin-top: 5px;
+            }
         }
     }
 }

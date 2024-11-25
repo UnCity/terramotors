@@ -1,0 +1,14 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ Logos ------------
+.p-logos{
+  margin-top: 292px;
+  padding: 110px 0 107px;
+  background: #fff;
+  overflow: hidden;
+  @include mq(){
+    margin-top: 140px;
+    padding: 40px 0;
+  }
+}

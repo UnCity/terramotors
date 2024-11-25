@@ -10,13 +10,10 @@
     overflow: hidden;
     position: relative;
     border-radius: 5px;
-
     @include objImg(66.67%);
-
     @include mq(sp) {
       margin: 0 auto 20px auto;
     }
-
     // NEW ICON
     div.pop {
       z-index: 2;
@@ -34,16 +31,21 @@
   }
 
   &__ttl {
-    margin: 0 auto 10px auto;
+    margin: 0 auto 14px auto;
     font-weight: bold;
-    @extend %font-size_30;
-
+    font-size: 40px;
+    @include mq(){
+        font-size: 25px;
+    }
     @include mq(sp) {
       margin: 0 auto;
     }
   }
 
   &__info {
+    @include mq(){
+        margin-top: 10px;
+    }
     li {
       display: inline-block;
       font-size: 0;
@@ -51,7 +53,9 @@
 
     .c-articleDay {
       font-weight: 700;
-      @extend %font-size_16;
+      @extend %font-size_20;
+      color: $bg-color;
+      transform: translateY(2px);
       & + li {
         margin-left: 10px;
       }
@@ -66,12 +70,10 @@
         display: inline-block;
         a,
         span {
-          @extend %font-size_14;
-          background-color: $sub-color;
+          @extend %font-size_12;
+          background-color: $main-color;
           padding: 3px 10px;
-          border-radius: 5px;
           color: #fff;
-          background: $sub-color;
           font-weight: 700;
         }
         a {

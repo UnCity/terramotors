@@ -1,0 +1,254 @@
+@charset "utf-8";
+@use "../index" as *;
+
+// ------------ Logos ------------
+.p-career{
+  .c-pageTitle{
+    background: #3C3C3C url(../img/career/bg-pagetitle.png)no-repeat center top / cover;
+  }
+  .l-sec{
+    background-color: #fff;
+  }
+  .p-cta{ 
+    .c-ttl{
+      font-size: min(15vw, 170px);
+    }
+  }
+  @include mq() {
+    .c-ttl02{
+      font-size: 28px;
+    }
+  }
+}
+
+.p-career__vision{
+  .c-ttl02{
+    letter-spacing: .05em;
+    margin-bottom: 18px;
+  }
+  .l-wrapper{
+    padding-top: 68px;
+    padding-bottom: 274px;
+  }
+  &-txt{
+    @extend %font-size_19; 
+    line-height: 2.1;
+    letter-spacing: .05em;
+    & + &{
+      margin-top: 40px;
+    }
+  }
+  @include mq{
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 100px;
+    }
+  }
+}
+
+.p-career__value{
+  margin-top: 350px;
+  padding-top: 228px;
+  .c-ttl02{
+    letter-spacing: .05em;
+    margin-bottom: 32px;
+  }
+  .l-wrapper{
+    padding-top: 0;
+    margin-top: -20px;
+    padding-bottom: 210px;
+  }
+  &__item{
+    color: #fff;
+    letter-spacing: .05em;
+    background: linear-gradient(45deg, #21B7AF -10%, #041548 40%);
+    padding: 30px 48px 32px 45px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &+&{
+      margin-top: 14px;
+    }
+    &-ttl{
+      font-size: 23px;
+      width: max(390px, 40%);
+    }
+    &-txt{
+      width: max(666px, 64%);
+      line-height: 2.1;
+    }
+  }
+  @include mq_up(pc){
+    .p-career__value__item-ttl .br{
+      display: none;
+    }
+  }
+  @include mq{
+    margin-top: 150px;
+    padding-top: 100px;
+    .l-wrapper{
+      padding-top: 30px;
+      padding-bottom: 100px;
+    }
+    .c-ttl{
+      font-size: min(18vw, 87px);
+    }
+    &__item{
+      display: block;
+      padding: 15px 20px;
+      &-ttl{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+      &-txt{
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.p-career__team{
+  .c-ttl{
+    font-size: min(15vw, 170px);
+  }
+  .c-ttl02{
+    letter-spacing: .05em;
+    margin-bottom: 45px;
+  }
+  .l-wrapper{
+    padding-top: 0;
+    margin-top: -20px;
+    padding-bottom: 264px;
+  }
+  &-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &-item{ 
+    width: 31.5%;
+  }
+  &-iframe{
+    position: relative;
+    padding-bottom: 56.25%;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 7px;
+    iframe{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    } 
+  }
+  &-movie{
+    color: #909090;
+    @extend %en-font;
+    @extend %font-size_16;
+    letter-spacing: .05em;
+  }
+  &-name{
+    font-size: 25px;
+    letter-spacing: .05em;
+    @extend %en-font;
+  }
+  @include mq{
+    .l-wrapper{
+      padding-bottom: 100px;
+    }
+    &-item{
+      width: 100%;
+      &+&{
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+.p-career__link{
+  .l-wrapper{
+    padding-top: 153px;
+    padding-bottom: 136px;
+  }
+  &-item{
+    position: relative;
+    display: block;
+    background-color: #041548;
+    width: 100%;
+    height: 28%;
+    border-radius: 5px;
+    &::after{
+      content: "";
+      position: absolute;
+      width: 47.31px;
+      height: 26px;
+      bottom: 35px;
+      right: 25px;
+      background: url(../img/arrow/arrow-btn-wh.svg) center center no-repeat;
+      background-size: contain;
+      margin-left: 23px;
+      z-index: 1;
+    }
+    &.--movie{
+      height: 56%;
+      &::after{
+        display: none;
+      }
+    }
+    &+&{
+      margin-top: 27px;
+    }
+  }
+  &-img{
+    object-fit: cover;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  a.p-career__link-item{
+    color: #fff;
+  }
+  
+  &-txt{
+    z-index: 1;
+    position: absolute;
+    bottom: 26px;
+    left: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 26px;
+    letter-spacing: .05em;
+    .en{
+      @extend %en-font;
+    }
+    &-sub{
+      font-size: 16px;
+    }
+  }
+  @include mq{
+    .l-wrapper{
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    &-item{
+      &::after{
+        bottom: 20px;
+      }
+    }
+    &-txt{
+      font-size: 19px;
+      left: 20px;
+      bottom: 15px;
+      &-sub{
+        font-size: 14px;
+      }
+    }
+  }
+}

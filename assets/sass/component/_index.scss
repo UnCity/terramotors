@@ -3,8 +3,10 @@
 @forward "breadcrumbs";
 @forward "button";
 @forward "cookiebox";
+@forward "card";
 @forward "faq";
 @forward "link";
+@forward "libraryList";
 @forward "pageTitle";
 @forward "pageup";
 @forward "policy_box";
@@ -14,6 +16,8 @@
 @forward "sidebarBlock";
 @forward "column";
 @forward "fixedBg";
+@forward "why";
+@forward "set";
 
 // article
 @forward "article/articleSide";
@@ -23,6 +27,4 @@
 @forward "article/list";
 @forward "article/nav";
 @forward "article/pager";
-@forward "article/share";
-@forward "article/tag";
 @forward "article/category";

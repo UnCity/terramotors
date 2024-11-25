@@ -56,6 +56,7 @@ add_action('wp_enqueue_scripts', function () {
 
     wp_enqueue_script('loading', get_template_directory_uri() . '/assets/js/min/loading.min.js', array('jquery'), '1.1', true);
     wp_enqueue_script('scroll', get_template_directory_uri() . '/assets/js/min/scrollEffect.min.js', array('jquery'), '1.1', false);
+    wp_enqueue_script('slider', get_template_directory_uri() . '/assets/js/slider.js', array('jquery'), '1.1', false);
 });
 
 
