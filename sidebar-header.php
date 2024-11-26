@@ -30,7 +30,7 @@
     <nav class="l-header-nav">
       <ul class="l-header-nav__list">
         <li class="l-header-nav__item switching">
-          <a href="/"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/logo.png" alt="<?php bloginfo(); ?>"></a>
+          <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/common/logo.png" alt="<?php bloginfo(); ?>"></a>
         </li>
         <li class="l-header-nav__item l-header-nav__item--parent">
           <a href="#">About Us</a>

@@ -84,14 +84,14 @@ get_header(); ?>
 				<div class="l-wrapper c-slideup init d_50">
 					<ul class="c-list__why">
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why01.png" alt="顧客体験の向上" class="lazyload obj_image"></div>
+							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why03.png" alt="顧客体験の向上" class="lazyload obj_image"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">顧客体験の向上</h3>
 								<p class="c-list__why-item-txt">テラモーターズは、ユーザーとテックで繋がることでアフターケアの提供を実現しています。これは、新興国で一般的な「売り切りモデル」に対する課題に対応するためであり、ドライバーが車体の故障時に安心してサポートを受けられる日本ブランドならではの強みとして提供しています。</p>
 							</div>
 						</li>
 						<li class="c-list__why-item">
-							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why02.png" alt="ROIの最大化" class="lazyload obj_image"></div>
+							<div class="c-list__why-item-ico"><img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/ev3/ico_why04.png" alt="ROIの最大化" class="lazyload obj_image"></div>
 							<div class="c-list__why-item-cont">
 								<h3 class="c-ttl02">ROIの最大化</h3>
 								<p class="c-list__why-item-txt">IoTとアプリケーションを活用した稼働状況の一元管理により、ビジネスオーナーはドライバーの稼働率を最適化。ドライバーは、最寄りのEV充電所の案内や故障時の迅速なサポートを受けられるため、一日のパフォーマンスを向上しています。</p>

@@ -36,6 +36,7 @@
         background-image: url(../img/arrow/arrow-btn-bl.svg);
         background-size: 47.31px 26px;
         background-position: right center;
+        padding-right: 50px;
       }
       @include mq() {
         flex-wrap: wrap;
@@ -80,6 +81,7 @@
     padding: 0 10px 0 0;
     @extend %font-size_20;
     @extend %en-font;
+    color: #6F6F6F;
 
     @include mq() {
       width: auto;

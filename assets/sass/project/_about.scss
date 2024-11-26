@@ -165,6 +165,7 @@
     font-size: min(15vw, 170px);
   }
   @include mq() {
+    padding-top: 100px;
     .l-wrapper{
       padding-top: 20px;
       padding-bottom: 50px;

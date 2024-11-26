@@ -53,14 +53,14 @@ get_header(); ?>
                             </div>
                             <div class="box-contact__bot">
                                 <div class="box-contact__bot-item">
-                                    <a href="">
+                                    <a class="u-link_sp" href="tel:0368234959">
                                         <p class="box-contact__sub">東京支社</p>
                                         <p class="box-contact__number">03-6823-4959</p>
                                         <p class="box-contact__txt">受付時間　平日9:00-18:00（日本時間）</p>
                                     </a>
                                 </div>
                                 <div class="box-contact__bot-item">
-                                    <a href="">
+                                    <a class="u-link_sp" href="tel:+913340908200">
                                         <p class="box-contact__sub">インド支社</p>
                                         <p class="box-contact__number">＋91-3340908200</p>
                                         <p class="box-contact__txt">受付時間　平日9:00-17:00（現地時間）</p>

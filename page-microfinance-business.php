@@ -142,7 +142,7 @@ get_header(); ?>
 							<p class="p-microfinance__environment-item-num"><span class="num">350万</span><span class="en">USD</span></p>
 						</div>
 						<div class="p-microfinance__environment-item is-large">
-							<h3 class="p-microfinance__environment-item-ttl">はじめてローンを借りるドライバー</h3>
+							<h3 class="p-microfinance__environment-item-ttl">はじめてローンを借りる<br class="u-hide_more_sp">ドライバー</h3>
 							<p class="p-microfinance__environment-item-num"><span class="num">50％</span><span class="plus">＋</span></p>
 							<p class="p-microfinance__environment-item-txt">NTC(New To Credit：新規信用取引 )の割合</p>
 							<div class="c-btn --wh"><a href="<?php echo home_url(); ?>/esg/" class="c-btn__link">ESGレポートを見る</a></div>

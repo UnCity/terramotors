@@ -23,6 +23,9 @@
     }
     &__text{
         margin-top: 20px;
+        @include mq(sp){
+            text-align: left;
+        }
     }
     &__form{
         margin-top: 40px;
@@ -30,18 +33,26 @@
             text-align: left;
             @include mq_up(){
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
-                gap: 20px;
+                align-items: center;
+                gap: 10px;
             }
         }
         &-block{
             @include mq_up(){
-                width: 250px;
+                width: 325px;
+                display: flex;
+                align-items: center;
+                span{
+                    width: 94px;
+                }
             }
         }
         .c-btn{
             @extend %font-size_18;
             margin: auto;
+            cursor: pointer;
         }
     }
     &__button {

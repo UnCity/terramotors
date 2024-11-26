@@ -4,7 +4,7 @@
         <h2 class="c-ttl">EV ecosystem</h2>
     </div>
     <div class="l-wrapper c-slideup init d_50">
-        <h2 class="c-ttl02">テラモーターズのEVエコシステム</h2>
+        <h2 class="c-ttl02">テラモーターズの<br class="u-hide_more_sp">EVエコシステム</h2>
         <p>EV3輪事業から始まったテラモーターズですが、<br>EV3輪を購入するドライバーたちは、ガソリン車と比較して高価格であるEV車を購入する経済的余裕がないことを知りました。<br>テラファイナンスは、そういったドライバーへ機会提供することを目的に始まりました。<br>エンドユーザーにとって、EVがより身近になるよう、テラモーターズはE Vエコシステムをアップデートし続けています。</p>
         <ul class="p-ecosystem01__list">
             <li class="p-ecosystem01__item">

@@ -47,7 +47,7 @@ get_header(); ?>
 					<span class="c-ttl">Needs</span>
 				</div>
 				<div class="l-wrapper c-slideup init d_50">
-					<h2 class="c-ttl02">お客様のニーズを形にしたEV三輪</h2>
+					<h2 class="c-ttl02">お客様のニーズを<br class="u-hide_more_sp">形にしたEV三輪</h2>
 					<p>テラモーターズは、人々の手軽な移動を目的とした商業EVだけでなく、ビジネスセクターにおける貨物EVは<br>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。<br>この文章はダミーです。この文章はダミーです。この文章はダミーです。この文章はダミーです。</p>
 					<div class="p-ev3__needs__list">
 						<div class="p-ev3__needs__item">

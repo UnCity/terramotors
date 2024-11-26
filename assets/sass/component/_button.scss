@@ -8,6 +8,7 @@
   align-items: center;
   padding: 15px 0;
   font-weight: bold;
+  @extend %en-font;
   @include link-color(#050500);
 
   &::after{

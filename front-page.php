@@ -48,7 +48,7 @@
 
           <ul class="p-front__service__list">
             <li class="p-front__service__item --ev c-slideup init d_50">
-              <a>
+              <a href="./ev-three-wheel-business/">
                 <span class="p-front__service__item-subttl">EV Three-Wheel Business</span>
                 <h3 class="p-front__service__item-ttl"><span>EV3</span>輪事業</h3>
                 <p class="p-front__service__item-text">
@@ -58,7 +58,7 @@
               </a>
             </li>
             <li class="p-front__service__item --tech c-slideup init d_50">
-              <a>
+              <a href="./technology-business/">
                 <span class="p-front__service__item-subttl">Technology Business</span>
                 <h3 class="p-front__service__item-ttl">テック事業</h3>
                 <p class="p-front__service__item-text">
@@ -68,7 +68,7 @@
               </a>
             </li>
             <li class="p-front__service__item --micro c-slideup init d_50">
-              <a>
+              <a href="./microfinance-business/">
                 <span class="p-front__service__item-subttl">Microfinance Business</span>
                 <h3 class="p-front__service__item-ttl">マイクロファイナンス事業</h3>
                 <p class="p-front__service__item-text">
@@ -93,7 +93,7 @@
 
         <div class="l-wrapper c-slideup init d_50">
 
-          <a class="p-front__esg__box">
+          <a href="./esg/" class="p-front__esg__box">
             <div class="p-front__esg__box-ttl">
               <h3>
                 サステナブルな<br>
@@ -186,7 +186,7 @@
               <img src="data:image/gif;base64,R0lGODlhAQABAGAAACH5BAEKAP8ALAAAAAABAAEAAAgEAP8FBAA7" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/about.jpg" alt="About Us" class="lazyload obj_image">
             </div>
             <div class="c-column__cont">
-              <h2 class="c-column__cont-ttl">EVを通じて人々の力を解き放つ。</h3>
+              <h2 class="c-column__cont-ttl">EVを通じて<br class="u-hide_more_sp">解き放つ。</h3>
                 <p class="c-column__cont-text">テラモーターズの秘話をご覧ください。当社の使命、価値観、そしてよりクリーンで明るい未来に向けて当社を牽引する情熱的なチームについて学んでください。</p>
                 <a href="./about/" class="c-btn">read more</a>
             </div>

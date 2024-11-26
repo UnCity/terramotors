@@ -43,7 +43,7 @@ get_header(); ?>
                     <p>数日経って弊社よりご連絡がなかった場合、<br>
                     お手数ではございますがお電話、またはお問い合わせにて<br>
                     再度ご連絡ください。</p>
-                    <a href="" class="c-btn c-btn--back">BACK</a>
+                    <a href="<?php echo esc_url(home_url()); ?>" class="c-btn c-btn--back">BACK</a>
                 </div>
             </div>
         </section>

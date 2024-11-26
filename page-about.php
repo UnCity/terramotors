@@ -25,7 +25,7 @@ get_header(); ?>
 				<div class="p-about__hero-bg"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/hero02.png" alt="Vision イメージ画像"></div>
                 <div class="p-about__hero-content">
 					<p class="p-about__hero-en">Vision</p>
-                    <p class="p-about__hero-text">機会と変革の連鎖で、進化しつづける世界。</p>
+                    <p class="p-about__hero-text">機会と変革の連鎖で、<br class="u-hide_more_sp">進化しつづける世界。</p>
                 </div>
             </div>
 			<div class="p-about__hero-item hero-item03">

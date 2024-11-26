@@ -10,7 +10,7 @@
     <li class="p-front__case__item --cs c-slideup init d_50">
       <a href="<?php echo esc_url(home_url('/customers-story/')); ?>" class="p-front__case__item-box">
         <p class="p-front__case__item-subttl">Customer’s Story</p>
-        <h3 class="p-front__case__item-ttl">お客様の声</h3>
+        <h3 class="p-front__case__item-ttl">商用ドライバーの声</h3>
         <p class="p-front__case__item-text">
           商用EVとマイクロファイナンスの組み合わせによって、新興国における低所得者の生活水準の向上に取り組んでいます。
         </p>

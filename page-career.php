@@ -120,8 +120,8 @@ get_header(); ?>
                     <div class="p-cta__cont">
                         <h2 class="p-cta__ttl">採用に関するお問い合わせ</h2>
                         <p class="p-cta__text">採用情報についてはHRへお問い合わせください。</p>
-                        <p class="p-cta__button"><a href="<?php echo home_url(); ?>/contact/" class="c-btn --wh">Contact Form</a></p>
-                        <p class="p-cta__mail"><a href="" id="js-mailContact02">xxxxx</a></p>
+                        <p class="p-cta__button"><a href="<?php echo esc_url(home_url('contact')); ?>" class="c-btn --wh">Contact Form</a></p>
+                        <p class="p-cta__mail"><a href="mailto:info.in@terramotors.co.jp" id="js-mailContact02">info.in@terramotors.co.jp</a></p>
                     </div>
                 </div>
             </div>

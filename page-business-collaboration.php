@@ -61,8 +61,8 @@ get_header(); ?>
 				<div class="p-cta__cont">
 					<p class="p-cta__ttl">お問い合わせ</p>
 					<p class="p-cta__text">B2Bコラボレーションに関するご相談</p>
-					<p class="p-cta__button"><a href="<?php echo home_url(); ?>/contact/" class="c-btn --wh" alt="お問い合わせフォームへ">Contact Form</a></p>
-					<p class="p-cta__mail"><a href="" id="js-mailContact02" alt="メールでのお問い合わせ">xxxxx</a></p>
+					<p class="p-cta__button"><a href="<?php echo esc_url(home_url('contact')); ?>" class="c-btn --wh" alt="お問い合わせフォームへ">Contact Form</a></p>
+					<p class="p-cta__mail"><a href="mailto:info.in@terramotors.co.jp" id="js-mailContact02" alt="メールでのお問い合わせ">info.in@terramotors.co.jp</a></p>
 				</div>
 			</div>
 		</div>
@@ -78,7 +78,7 @@ get_header(); ?>
 			<div class="l-wrapper">
 				<p class="p-casestudy__case-lead c-slideup init d_50">その他の取り組み</p>
 				<ul class="p-front__case__list">
-					<li class="p-front__case__item --bc c-slideup init d_50">
+					<li class="p-front__case__item --cs c-slideup init d_50">
 						<a href="<?php echo home_url(); ?>/customers-story/" class="p-front__case__item-box">
 						<p class="p-front__case__item-subttl">Customer's Story</p>
 						<h3 class="p-front__case__item-ttl">商用ドライバーの声</h3>

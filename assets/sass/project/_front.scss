@@ -258,7 +258,7 @@
   padding-bottom: 40px;
   @include mq(){
     padding-top: 25px;
-    padding-bottom: 140px;
+    padding-bottom: 40px;
   }
   &__lead{
     font-size: 19px;
@@ -291,7 +291,7 @@
       width: 31.5%;
     }
     @include mq(){
-      background-position: top center;
+      background-position: top 25% center;
       & + .p-front__case__item{
         margin-top: 30px;
       }
