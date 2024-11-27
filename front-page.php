@@ -19,10 +19,7 @@
       <div class="p-front__fv">
         <div class="p-front__fv__image">
           <!-- pc版 -->
-          <video playsinline autoplay muted poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster.jpg" loop class="p-front__fv__image-video pc-video u-hide_sp" id="js-video-pc" src="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
-
-          <!-- sp版 -->
-          <video playsinline autoplay muted poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster-sp.jpg" loop class="sp-video u-hide_pc" id="js-video-sp" src="" data-src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv-sp.mp4"></video>
+          <video playsinline autoplay muted poster="<?php echo get_template_directory_uri(); ?>/assets/img/front/poster.jpg" loop class="p-front__fv__image-video" id="js-video-pc" src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv.mp4"></video>
           
           <div class="p-front__fv__image-img u-hide_sp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/front/mv-mask.png" alt="ファーストビューイメージ">

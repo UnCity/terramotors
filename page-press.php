@@ -124,7 +124,7 @@
           </div>
           <div class="c-libraryList c-libraryList--2col">
             <div class="c-card">
-              <a href="">
+              <a href="<?php echo esc_url(home_url('library')); ?>">
                 <div class="c-card__image">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/press/dummy2.jpg" alt="製品動画">
                 </div>
@@ -135,7 +135,7 @@
               </a>
             </div>
             <div class="c-card">
-              <a href="">
+              <a href="<?php echo esc_url(home_url('library')); ?>">
                 <div class="c-card__image">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/press/dummy2.jpg" alt="マネージメント">
                 </div>

@@ -43,8 +43,8 @@
           <li class="l-footer__item">
             <span>ケーススタディ</span>
             <ul>
-              <li><a href="<?php echo esc_url(home_url('/customers-story/')); ?>">商用ドライバー</a></li>
-              <li><a href="<?php echo esc_url(home_url('/business-collaboration/')); ?>">ビジネスセクター</a></li>
+              <li><a href="<?php echo esc_url(home_url('/customers-story/')); ?>">商用ドライバーの声</a></li>
+              <li><a href="<?php echo esc_url(home_url('/business-collaboration/')); ?>">法人との取り組み</a></li>
               <li><a href="<?php echo esc_url(home_url('/initiatives-with-governments/')); ?>">政府との取り組み</a></li>
             </ul>
           </li>

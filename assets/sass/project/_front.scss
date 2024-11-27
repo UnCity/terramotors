@@ -26,9 +26,11 @@
         width: 100%;
         height: 122vw;
         object-fit: cover;
+        object-position: center right;
       }
     }
     &-img{
+      mix-blend-mode: hard-light;
       position: absolute;
       width: 100%;
       height: 100%;

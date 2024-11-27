@@ -181,15 +181,22 @@ ul.l-header-nav__sub {
         opacity: 1;
         font-size: 13px;
 
-        &:hover {
-          letter-spacing: inherit;
+        @include mq_up(spc){
+          &:hover {
+            letter-spacing: inherit;
+          }
+        }
+        @include mq(spc){
+          &:hover {
+            opacity: .7;
+          }
         }
       }
     }
   }
 }
 .l-header-nav__item--parent:hover ul.l-header-nav__sub {
-  @include mq_up() {
+  @include mq_up(spc) {
     padding: 5px 5px;
     li {
       padding: 5px 10px;
